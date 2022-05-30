@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKkr-Bold.otf">
+            <string>NotoSansCJKkr-Bold</string>
+        </array>
+        <array key="NotoSansCJKkr-Regular.otf">
+            <string>NotoSansCJKkr-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="cCk-Ot-jt0" customClass="CastPopupView" customModule="PopkonAir" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="210"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="msb-fk-fUT">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="90"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="StN-TW-H2Q">
+                            <rect key="frame" x="8" y="17.5" width="55" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="8Nc-nj-mU9"/>
+                                <constraint firstAttribute="width" constant="55" id="MT8-dL-pq1"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CastName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rek-k3-iQR">
+                            <rect key="frame" x="71" y="22" width="221" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="i4v-qm-Dzm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MC nickname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFI-fA-kQo">
+                            <rect key="frame" x="71" y="44" width="221" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="AW3-7d-fi0"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.77587932348251343" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="eFI-fA-kQo" firstAttribute="leading" secondItem="Rek-k3-iQR" secondAttribute="leading" id="1iH-p1-QRU"/>
+                        <constraint firstItem="eFI-fA-kQo" firstAttribute="trailing" secondItem="Rek-k3-iQR" secondAttribute="trailing" id="98n-E1-IHG"/>
+                        <constraint firstItem="eFI-fA-kQo" firstAttribute="top" secondItem="Rek-k3-iQR" secondAttribute="bottom" constant="1" id="ACo-Dt-JSO"/>
+                        <constraint firstItem="StN-TW-H2Q" firstAttribute="centerY" secondItem="msb-fk-fUT" secondAttribute="centerY" id="OtM-Mm-ubM"/>
+                        <constraint firstAttribute="trailing" secondItem="Rek-k3-iQR" secondAttribute="trailing" constant="8" id="UVy-L6-TpZ"/>
+                        <constraint firstItem="Rek-k3-iQR" firstAttribute="centerY" secondItem="msb-fk-fUT" secondAttribute="centerY" constant="-12.5" id="jO3-q8-yBG"/>
+                        <constraint firstAttribute="height" constant="90" id="rNS-Eh-0d0"/>
+                        <constraint firstItem="Rek-k3-iQR" firstAttribute="leading" secondItem="StN-TW-H2Q" secondAttribute="trailing" constant="8" id="teR-cN-roD"/>
+                        <constraint firstItem="StN-TW-H2Q" firstAttribute="leading" secondItem="msb-fk-fUT" secondAttribute="leading" constant="8" id="uUe-bR-LEF"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fq1-y6-eIB">
+                    <rect key="frame" x="0.0" y="90" width="300" height="120"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Content" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSX-9F-5f8">
+                            <rect key="frame" x="10" y="8" width="280" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="280" id="Y3G-xX-JE2"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HPb-mJ-dPN" customClass="RoundButton" customModule="PopkonAir" customModuleProvider="target">
+                            <rect key="frame" x="206" y="82" width="86" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="VsM-ik-gIV"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="30" minY="0.0" maxX="30" maxY="0.0"/>
+                            <state key="normal" title="확인">
+                                <color key="titleColor" red="0.94901960780000005" green="0.30196078430000001" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="okAction:" destination="cCk-Ot-jt0" eventType="touchUpInside" id="eDI-P5-poV"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P08-rB-yxb" customClass="RoundButton" customModule="PopkonAir" customModuleProvider="target">
+                            <rect key="frame" x="100" y="82" width="86" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="DXy-0V-3I3"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="30" minY="0.0" maxX="30" maxY="0.0"/>
+                            <state key="normal" title="취소">
+                                <color key="titleColor" red="0.94901960780000005" green="0.30196078430000001" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="cancelAction:" destination="cCk-Ot-jt0" eventType="touchUpInside" id="RYL-um-9DC"/>
+                            </connections>
+                        </button>
+                        <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="비밀번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XcV-Bg-FzC" customClass="OneLineTextField" customModule="PopkonAir" customModuleProvider="target">
+                            <rect key="frame" x="20" y="42" width="180" height="30"/>
+                            <color key="tintColor" red="0.94901960780000005" green="0.30196078430000001" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="180" id="G3m-6j-0k2"/>
+                                <constraint firstAttribute="height" constant="30" id="a4B-9J-75d"/>
+                            </constraints>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="15"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="cCk-Ot-jt0" id="QhQ-aG-rIr"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="HPb-mJ-dPN" firstAttribute="leading" secondItem="P08-rB-yxb" secondAttribute="trailing" constant="20" id="4bN-Cp-wj1"/>
+                        <constraint firstItem="cSX-9F-5f8" firstAttribute="top" secondItem="fq1-y6-eIB" secondAttribute="top" constant="8" id="9Pd-FH-alZ"/>
+                        <constraint firstAttribute="bottom" secondItem="P08-rB-yxb" secondAttribute="bottom" constant="8" id="TjS-Ob-e33"/>
+                        <constraint firstItem="P08-rB-yxb" firstAttribute="top" secondItem="XcV-Bg-FzC" secondAttribute="bottom" constant="10" id="Ubl-Jc-rtj"/>
+                        <constraint firstItem="cSX-9F-5f8" firstAttribute="centerX" secondItem="fq1-y6-eIB" secondAttribute="centerX" id="aFA-DO-elX"/>
+                        <constraint firstAttribute="trailing" secondItem="HPb-mJ-dPN" secondAttribute="trailing" constant="8" id="bvH-p0-1bP"/>
+                        <constraint firstAttribute="bottom" secondItem="HPb-mJ-dPN" secondAttribute="bottom" constant="8" id="eQw-3N-iTP"/>
+                        <constraint firstItem="XcV-Bg-FzC" firstAttribute="leading" secondItem="fq1-y6-eIB" secondAttribute="leading" constant="20" id="nqM-w0-TsL"/>
+                        <constraint firstItem="XcV-Bg-FzC" firstAttribute="top" secondItem="cSX-9F-5f8" secondAttribute="bottom" constant="10" id="o6D-t9-BRq"/>
+                        <constraint firstItem="HPb-mJ-dPN" firstAttribute="leading" secondItem="P08-rB-yxb" secondAttribute="trailing" constant="20" id="qYW-9I-2NZ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fq1-y6-eIB" firstAttribute="leading" secondItem="cCk-Ot-jt0" secondAttribute="leading" id="5iL-J1-Gyb"/>
+                <constraint firstAttribute="bottom" secondItem="fq1-y6-eIB" secondAttribute="bottom" id="ANA-v5-aEd"/>
+                <constraint firstItem="msb-fk-fUT" firstAttribute="top" secondItem="cCk-Ot-jt0" secondAttribute="top" id="eFw-YO-tlC"/>
+                <constraint firstItem="msb-fk-fUT" firstAttribute="leading" secondItem="cCk-Ot-jt0" secondAttribute="leading" id="h4u-fw-tDg"/>
+                <constraint firstAttribute="trailing" secondItem="msb-fk-fUT" secondAttribute="trailing" id="ljd-uO-gVr"/>
+                <constraint firstItem="fq1-y6-eIB" firstAttribute="top" secondItem="msb-fk-fUT" secondAttribute="bottom" id="mej-Xb-Enh"/>
+                <constraint firstAttribute="trailing" secondItem="fq1-y6-eIB" secondAttribute="trailing" id="wo4-2u-7lT"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cancelButton" destination="P08-rB-yxb" id="zbi-6c-gYB"/>
+                <outlet property="contentLabel" destination="cSX-9F-5f8" id="IaY-vo-qHG"/>
+                <outlet property="nicknameLabel" destination="eFI-fA-kQo" id="6N9-Qa-VmM"/>
+                <outlet property="okButton" destination="HPb-mJ-dPN" id="J4B-MF-foc"/>
+                <outlet property="profileImageView" destination="StN-TW-H2Q" id="m9o-KA-5lk"/>
+                <outlet property="pwTextFiled" destination="XcV-Bg-FzC" id="JiJ-SI-G8v"/>
+                <outlet property="roomNameLabel" destination="Rek-k3-iQR" id="UoQ-JS-rSe"/>
+            </connections>
+            <point key="canvasLocation" x="17" y="-184"/>
+        </view>
+    </objects>
+</document>

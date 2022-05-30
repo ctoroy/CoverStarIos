@@ -1,0 +1,6 @@
+framework module Pods_CoverStar {
+  umbrella header "Pods-CoverStar-umbrella.h"
+
+  export *
+  module * { export * }
+}

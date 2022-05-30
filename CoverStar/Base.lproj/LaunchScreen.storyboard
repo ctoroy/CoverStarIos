@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_bg" translatesAutoresizingMaskIntoConstraints="NO" id="TSt-8a-sPA">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_logo" translatesAutoresizingMaskIntoConstraints="NO" id="MCP-fD-9Gl">
+                                <rect key="frame" x="103" y="235" width="184" height="151"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="최고의 커버스타를 찾아라" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLv-gx-rRP">
+                                <rect key="frame" x="62" y="407" width="266" height="124"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="124" id="Zeq-lb-arA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gLv-gx-rRP" firstAttribute="centerX" secondItem="MCP-fD-9Gl" secondAttribute="centerX" id="4nR-NL-ZMS"/>
+                            <constraint firstItem="TSt-8a-sPA" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="9NH-pd-IMW"/>
+                            <constraint firstItem="TSt-8a-sPA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="XGx-yb-hzx"/>
+                            <constraint firstItem="gLv-gx-rRP" firstAttribute="centerX" secondItem="TSt-8a-sPA" secondAttribute="centerX" id="btj-4p-leH"/>
+                            <constraint firstItem="TSt-8a-sPA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mQj-1X-bYB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gLv-gx-rRP" secondAttribute="bottom" constant="279" id="sRU-aj-z8C"/>
+                            <constraint firstItem="gLv-gx-rRP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="sYN-QY-G90"/>
+                            <constraint firstItem="gLv-gx-rRP" firstAttribute="top" secondItem="MCP-fD-9Gl" secondAttribute="bottom" constant="21" id="tdV-sq-2tl"/>
+                            <constraint firstItem="TSt-8a-sPA" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-44" id="xK0-2G-lry"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.769230769230766" y="373.93364928909949"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icn_logo" width="184" height="151"/>
+        <image name="splash_bg" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
