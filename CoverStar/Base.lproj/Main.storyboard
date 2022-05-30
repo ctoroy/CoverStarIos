@@ -1583,8 +1583,8 @@ help@coverstar.world로 문의 주세요. </string>
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvj-Vd-Tjw">
-                                <rect key="frame" x="13" y="78" width="81.666666666666671" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvj-Vd-Tjw">
+                                <rect key="frame" x="13" y="78" width="82" height="46"/>
                                 <color key="tintColor" red="0.94901960780000005" green="0.58823529409999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="polygon" imagePlacement="trailing" imagePadding="5">
@@ -1629,7 +1629,7 @@ help@coverstar.world로 문의 주세요. </string>
                             <constraint firstAttribute="trailing" secondItem="JYo-9N-fxo" secondAttribute="trailing" id="SMu-LF-IwT"/>
                             <constraint firstItem="JYo-9N-fxo" firstAttribute="top" secondItem="mpi-uC-4PH" secondAttribute="top" constant="31" id="WRm-A2-NDK"/>
                             <constraint firstItem="Vvj-Vd-Tjw" firstAttribute="top" secondItem="JYo-9N-fxo" secondAttribute="bottom" constant="3" id="XDS-7d-wRC"/>
-                            <constraint firstItem="2td-vz-Kzb" firstAttribute="bottom" secondItem="Vvj-Vd-Tjw" secondAttribute="bottom" constant="652" id="mrA-PY-xVx"/>
+                            <constraint firstItem="2td-vz-Kzb" firstAttribute="bottom" secondItem="Vvj-Vd-Tjw" secondAttribute="bottom" constant="637" id="mrA-PY-xVx"/>
                             <constraint firstItem="2td-vz-Kzb" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Vvj-Vd-Tjw" secondAttribute="trailing" symbolic="YES" id="nF8-5c-XBd"/>
                             <constraint firstItem="Vvj-Vd-Tjw" firstAttribute="leading" secondItem="2td-vz-Kzb" secondAttribute="leading" constant="13" id="wNj-xy-8Ge"/>
                         </constraints>
@@ -1646,7 +1646,7 @@ help@coverstar.world로 문의 주세요. </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TVd-b5-dgf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8855" y="-1400"/>
+            <point key="canvasLocation" x="8853.8461538461543" y="-1400.4739336492889"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="o7U-pa-j9P">
@@ -2437,8 +2437,8 @@ help@coverstar.world로 문의 주세요. </string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="DeD-4S-iXj"/>
-        <segue reference="LLC-gw-9s3"/>
-        <segue reference="ABG-rg-37Q"/>
+        <segue reference="6AS-Hn-bbX"/>
+        <segue reference="kD2-nE-vgn"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="DropDownIconDown" width="170.66667175292969" height="170.66667175292969"/>
