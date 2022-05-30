@@ -1,15 +1,16 @@
 //
-//  MyInfoSetViewController.swift
+//  myInfoChangeViewController.swift
 //  CoverStar
 //
-//  Created by taehan park on 2022/04/17.
+//  Created by taehan park on 2022/05/30.
 //
 
 import UIKit
 import Alamofire
 import SwiftyJSON
+import Kingfisher
 
-class MyInfoSetViewCOntroller: BaseViewController {
+class myInfoChangeViewCOntroller: BaseViewController {
     
     @IBOutlet weak var bBtnBack: UIBarButtonItem!
     @IBOutlet weak var txtNickName: UITextField!
@@ -25,12 +26,27 @@ class MyInfoSetViewCOntroller: BaseViewController {
         print("countryNo="+Static.countryNo)
         print("phoneNumber="+Static.userId.replace("+", ""))
         
-        imgProfile.layer.cornerRadius = imgProfile.frame.height/2
-        imgProfile.layer.borderWidth = 1
-        imgProfile.layer.borderColor = UIColor.clear.cgColor
-        // 뷰의 경계에 맞춰준다
-        imgProfile.clipsToBounds = true
+        guard let url = URL(string: Static.userProfileImage) else { return }
         
+        self.imgProfile.layer.cornerRadius = self.imgProfile.frame.height/2
+        self.imgProfile.layer.borderWidth = 1
+        self.imgProfile.layer.borderColor = UIColor.clear.cgColor
+        // 뷰의 경계에 맞춰준다
+        self.imgProfile.clipsToBounds = true
+        
+        let cornerImageProcessor = RoundCornerImageProcessor(cornerRadius: 30)
+        self.imgProfile.kf.indicatorType = .activity
+        self.imgProfile.kf.setImage(
+          with: url,
+          placeholder: nil,
+          options: [
+            .transition(.fade(1.2)),
+            .forceTransition,
+            .processor(cornerImageProcessor)
+          ],
+          completionHandler: nil)
+        
+        txtNickName.text = Static.userName
         
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
                 view.addGestureRecognizer(tap)
@@ -42,7 +58,7 @@ class MyInfoSetViewCOntroller: BaseViewController {
         txtNickName.layer.addSublayer((border))
         
         txtNickName.addDoneButtonToKeyboard(myAction:  #selector(self.txtNickName.resignFirstResponder))
-        self.txtNickName.becomeFirstResponder()
+       
         
         bBtnBack.action = #selector(backButtonPressed(sender:))
     }
@@ -69,9 +85,46 @@ class MyInfoSetViewCOntroller: BaseViewController {
             self.present(alert, animated: true, completion: nil)
         }else{
             Static.userName = txtNickName.text!
-            self.performSegue(withIdentifier: "refferCode", sender: nil)
+            
+            popupManager.showLoadingView()
+            
+            httpTool.updateUserProfile(userProfileImage: Static.userProfileImage, nickName: Static.userName, userId: Static.userId) { (succeed, resultInfo) in
+            
+                popupManager.hideLoadingView()
+            
+                if succeed {
+                    dispatchMain.async {
+                        let alert = UIAlertController(title: "변경 성공", message: "변경에 성공 하였습니다.", preferredStyle: .alert)
+                        
+                        let OKAction = UIAlertAction(title: "확인", style: .default) {
+                            (action:UIAlertAction!) in
+                            // Code in this block will trigger when OK button tapped.
+                            self.presentingViewController?.dismiss(animated: true, completion:nil)
+                            }
+
+                        // add an action (button)
+                        alert.addAction(OKAction)
+
+                        // show the alert
+                        self.present(alert, animated: true, completion: nil)
+                    }
+                }else{
+                        let alert = UIAlertController(title: "변경 실패", message: "변경에 실패 하였습니다. 다시 시도해 주시기 바랍니다.", preferredStyle: .alert)
+                        
+                        let OKAction = UIAlertAction(title: "확인", style: .default) {
+                            (action:UIAlertAction!) in
+                            // Code in this block will trigger when OK button tapped.
+                            
+                            }
+
+                        // add an action (button)
+                        alert.addAction(OKAction)
+
+                        // show the alert
+                        self.present(alert, animated: true, completion: nil)
+                }
+            }
         }
-        
     }
     
     @IBAction func setImage(_ sender: Any) {
@@ -113,18 +166,5 @@ class MyInfoSetViewCOntroller: BaseViewController {
                     }
                 }
     }
-    
-    func documentDirectoryPath() -> URL? {
-        let path = FileManager.default.urls(for: .documentDirectory,
-                                            in: .userDomainMask)
-        return path.first
-    }
-    
-    func savePng(_ image: UIImage) {
-        if let pngData = image.pngData(),
-           let path = documentDirectoryPath()?.appendingPathComponent(Static.userId + ".png") {
-            print("path=\(path)")
-            try? pngData.write(to: path)
-        }
-    }
 }
+

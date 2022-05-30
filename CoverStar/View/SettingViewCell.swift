@@ -15,6 +15,10 @@ class SettingViewCell: UITableViewCell {
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var btnNext: UIButton!
+    @IBOutlet weak var topConstraint: NSLayoutConstraint!
+    @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
+    
+    var bag = DisposeBag()
     
     func getIndexPath() -> Int {
             var indexPath = 0
@@ -28,16 +32,13 @@ class SettingViewCell: UITableViewCell {
             return indexPath
         }
     
-    override func awakeFromNib() {
-      super.awakeFromNib()
-      
-      print("\n============ 🍏 awakeFromNib ============\n")
-    }
-    
     override func prepareForReuse() {
-      super.prepareForReuse()
-      
-      print("\n============ 👀 prepareForReuse ============\n")
+        super.prepareForReuse()
+        bag = DisposeBag()
+    }
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
     }
     
     deinit {
@@ -46,13 +47,28 @@ class SettingViewCell: UITableViewCell {
  
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
- 
-        // Configure the view for the selected state
     }
     
     func setNumber(num: Int)
     {
-        lblTitle.text = String(num)
+        print("String(num)=" + String(num))
+
+        switch num {
+        case 0:
+            lblTitle.text = "개인 정보"
+        case 1:
+            lblTitle.text = "공지 사항"
+        case 2:
+            lblTitle.text = "알림"
+        case 3:
+            lblTitle.text = "버전 (" + Static.appVer + ")"
+            btnNext.isHidden = true
+        case 4:
+            lblTitle.text = "로그아웃"
+            btnNext.isHidden = true
+        default:
+            lblTitle.text = ""
+        }
     }
     
 }

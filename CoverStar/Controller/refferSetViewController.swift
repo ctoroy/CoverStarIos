@@ -21,7 +21,7 @@ class refferSetViewController: UIViewController, UITextFieldDelegate {
         print("Static.countryCode="+Static.countryCode)        
         print("Static.countryNo="+Static.countryNo)
         print("Static.userPhoneNumber="+Static.userPhoneNumber)
-        print("Static.nickName="+Static.nickName)
+        print("Static.nickName="+Static.userName)
         print("Static.userProfileImage="+Static.userProfileImage)
         
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))

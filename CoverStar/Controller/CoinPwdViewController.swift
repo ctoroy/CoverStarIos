@@ -34,7 +34,7 @@ class CoinPwdViewController: UIViewController, UITextFieldDelegate {
         print("Static.countryCode="+Static.countryCode)
         print("Static.countryNo="+Static.countryNo)
         print("Static.userPhoneNumber="+Static.userPhoneNumber)
-        print("Static.nickName="+Static.nickName)
+        print("Static.nickName="+Static.userName)
         print("Static.userProfileImage="+Static.userProfileImage)
         print("Static.recommendCode="+Static.recommendCode)
         print("Static.pushIde="+Static.pushId)
@@ -115,7 +115,7 @@ class CoinPwdViewController: UIViewController, UITextFieldDelegate {
         }
         
         self.join(userId : Static.userPhoneNumber,
-                  nickName : Static.nickName,
+                  nickName : Static.userName,
                   userPwd : Static.userPwd,
                   userProfileImage : Static.userProfileImage,
                   pushId : Static.pushId,

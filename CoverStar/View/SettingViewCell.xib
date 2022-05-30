@@ -28,8 +28,8 @@
                         <state key="normal" title="Button" image="chevron.right" catalog="system"/>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="위치기반 서비스 이용약관" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ndq-jV-uTG">
-                        <rect key="frame" x="16" y="14" width="170.5" height="28"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <rect key="frame" x="16" y="14" width="170" height="28"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -48,11 +48,11 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="cM6-wR-Qtj"/>
             <connections>
-                <outlet property="bottomConstraint" destination="GTK-4u-L13" id="zrx-2r-1dA"/>
+                <outlet property="bottomConstraint" destination="GTK-4u-L13" id="WIT-Ch-xcl"/>
                 <outlet property="btnNext" destination="fjI-gq-29O" id="fSg-7O-Sj8"/>
                 <outlet property="containerView" destination="j4e-4c-ep7" id="5Qn-9h-Nui"/>
                 <outlet property="lblTitle" destination="Ndq-jV-uTG" id="HeA-or-lBD"/>
-                <outlet property="topConstraint" destination="qjk-yl-Yq8" id="MCR-fk-0dm"/>
+                <outlet property="topConstraint" destination="qjk-yl-Yq8" id="4EN-vs-VrR"/>
             </connections>
             <point key="canvasLocation" x="140.57971014492756" y="148.66071428571428"/>
         </tableViewCell>

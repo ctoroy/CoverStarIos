@@ -14,6 +14,35 @@ class NetworkHelper: NSObject {
     
     static let manager = NetworkHelper()
     
+    //MARK: 17. 유저정보 수정
+    ///17. 유저정보 수정
+    
+    func updateUserProfile(userProfileImage : String,nickName : String,userId : String, complete : @escaping (_ succeed : Bool, _ resultInfo : JSON) -> Void)
+    {
+        
+        var params = self.defaultParams()
+        
+        params["userProfileImage"]           = userProfileImage
+        params["nickName"]           = nickName
+        params["userId"]           = userId
+        
+        let url = Static.apiUrl + "updateUserProfile"
+        
+        let completionHandler = {
+            (_ succeed : Bool, _ json : JSON, _ resultInfo : JSON) -> Void in
+            
+            if succeed {
+                
+            }
+            
+            complete(succeed, resultInfo)
+            
+        }
+        
+        self.post(url: url, params: params, complete: completionHandler)
+        
+    }
+    
     //MARK: 18. 회원가입
     ///18. 회원가입
     ///
@@ -127,8 +156,10 @@ class NetworkHelper: NSObject {
             
             if succeed {
                 
+                print("userPwd=" + userPw)
                 appData.set(userID, forKey: "userID")
                 appData.set(userPw, forKey: "userPw")
+                print("appData.string(forKey: userPw)=" + appData.string(forKey: "userPw")!)
                 appData.set(json["nickName"].stringValue, forKey: "userName")
                 Static.userName = json["nickName"].stringValue
                 Static.userProfileImage = json["userProfileImage"].stringValue

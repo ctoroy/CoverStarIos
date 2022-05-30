@@ -145,6 +145,7 @@ class PasswdAuthViewController: UIViewController, UITextFieldDelegate {
                 appData.set(pw, forKey: "userPw")
                 appData.synchronize()
                 Static.userId = id
+                Static.userPwd = pw
                 
                 dispatchMain.async {
                     self.performSegue(withIdentifier: "newToMain", sender: nil)

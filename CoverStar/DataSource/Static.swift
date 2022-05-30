@@ -18,7 +18,6 @@ class Static: NSObject {
     static var userName: String = ""
     static var veriId: String = ""
     static var userProfileImage: String = ""
-    static var nickName: String = ""
     static var countryCode: String = ""
     static var countryNo: String = ""
     static var userPhoneNumber: String = ""

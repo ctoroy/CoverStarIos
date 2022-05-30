@@ -15,14 +15,21 @@ class IntroViewController: UIViewController {
     override func viewDidLoad() {
         Static.userId = appData.string(forKey: "userID")!
         Static.userPwd = appData.string(forKey: "userPwd")!
+        
+        let upw = appData.string(forKey: "userPw")!
+        
+        print("appData.string(forKey: userPw)=" + appData.string(forKey: "userPw")!)
+        print("Static.userPwd=" + Static.userPwd)
 
-        print("User Id:" + Static.userId)
+        print("upw:" + upw)
         
         if Static.userId != "" {
             
+            print("User Id:" + Static.userId)
+            
             popupManager.showLoadingView()
             
-            httpTool.login(userID: Static.userId, userPw: Static.userPwd) { (succeed, resultInfo) in
+            httpTool.login(userID: Static.userId, userPw: upw) { (succeed, resultInfo) in
             
                 popupManager.hideLoadingView()
             

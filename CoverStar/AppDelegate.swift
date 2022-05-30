@@ -35,6 +35,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         Static.pushId = Messaging.messaging().fcmToken ?? ""
 //        appData.set("", forKey: "userID")
         Thread.sleep(forTimeInterval: 1.0);
+        
+        if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
+            Static.appVer = version
+        }
     
         return true
     }
