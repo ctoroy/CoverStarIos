@@ -2268,6 +2268,7 @@ help@coverstar.world로 문의 주세요. </string>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="settingToIntro" modalPresentationStyle="fullScreen" id="udd-Bz-LJi"/>
                         <segue destination="k9i-HA-SlJ" kind="presentation" identifier="settingToNotice" modalPresentationStyle="fullScreen" id="LLC-gw-9s3"/>
                         <segue destination="s0p-Tq-hP0" kind="presentation" identifier="settingToMyInfo" modalPresentationStyle="fullScreen" id="GiJ-wV-zdj"/>
+                        <segue destination="PEh-AU-FVZ" kind="presentation" identifier="settingToNoti" modalPresentationStyle="fullScreen" id="cmX-4M-Lbx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HRa-00-A7W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2393,6 +2394,45 @@ help@coverstar.world로 문의 주세요. </string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2IE-by-CgN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="10775" y="1028"/>
+        </scene>
+        <!--Noti Setting View Controller-->
+        <scene sceneID="ku2-Jf-xdv">
+            <objects>
+                <viewController id="PEh-AU-FVZ" customClass="NotiSettingViewController" customModule="CoverStar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hpv-cB-R1v">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="기기의 알림 설정은 휴대폰 설정&gt;알림&gt;CoverStar에서 변경할 수 있습니다." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9g-yx-va5">
+                                <rect key="frame" x="36" y="100" width="318" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" systemColor="systemGrayColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iYt-H5-Ygo">
+                                <rect key="frame" x="0.0" y="31" width="390" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" systemColor="systemBackgroundColor"/>
+                                <items>
+                                    <navigationItem title="알림" id="lax-MG-rf6" userLabel="Caption">
+                                        <barButtonItem key="leftBarButtonItem" image="icn_back" id="3XA-Ir-QFI" userLabel="back">
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pSe-FR-2ZC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="bBtnBack" destination="3XA-Ir-QFI" id="gvA-3J-fKF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Evk-lE-y6Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10773.846153846154" y="1729.6208530805686"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

@@ -74,6 +74,7 @@
 		09DFC1C2281F9AB4009144A0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DFC1C1281F9AB4009144A0 /* String.swift */; };
 		09E3BA5228092ED7009B56F8 /* PasswdAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E3BA5128092ED7009B56F8 /* PasswdAuthViewController.swift */; };
 		09E49E69284494760027163D /* myInfoChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49E68284494760027163D /* myInfoChangeViewController.swift */; };
+		09E49E6B2844A44E0027163D /* NotiSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49E6A2844A44E0027163D /* NotiSettingViewController.swift */; };
 		09E8F67627F6E3F10052F6A6 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E8F67527F6E3F10052F6A6 /* MyCell.xib */; };
 		09E8F67827F6E6D30052F6A6 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E8F67727F6E6D30052F6A6 /* MyCell.swift */; };
 		09E8F67B27F6E7010052F6A6 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E8F67A27F6E7010052F6A6 /* DropDownCell.xib */; };
@@ -158,6 +159,7 @@
 		09DFC1C1281F9AB4009144A0 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		09E3BA5128092ED7009B56F8 /* PasswdAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswdAuthViewController.swift; sourceTree = "<group>"; };
 		09E49E68284494760027163D /* myInfoChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myInfoChangeViewController.swift; sourceTree = "<group>"; };
+		09E49E6A2844A44E0027163D /* NotiSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiSettingViewController.swift; sourceTree = "<group>"; };
 		09E8F67527F6E3F10052F6A6 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
 		09E8F67727F6E6D30052F6A6 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		09E8F67A27F6E7010052F6A6 /* DropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
@@ -320,6 +322,7 @@
 				09B6D2C92843776300149F96 /* MyPageViewController.swift */,
 				09B511152843B7780070C66F /* SettingViewController.swift */,
 				09E49E68284494760027163D /* myInfoChangeViewController.swift */,
+				09E49E6A2844A44E0027163D /* NotiSettingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -511,6 +514,7 @@
 				0988D50B2837CB030016CDF3 /* TitleAndPwInputPopupView.swift in Sources */,
 				09D795AA280D0B4200C7C995 /* CreateWalletViewController.swift in Sources */,
 				09B511182843C4550070C66F /* BaseTableViewController.swift in Sources */,
+				09E49E6B2844A44E0027163D /* NotiSettingViewController.swift in Sources */,
 				09CFF20827FEB79400079508 /* LegalAgreeViewModel.swift in Sources */,
 				09D795A6280CFFBF00C7C995 /* MyInfoSetViewController.swift in Sources */,
 				09B6D2C828436F9E00149F96 /* JoinViewController.swift in Sources */,

@@ -60,6 +60,7 @@ extension SettingViewController : UITableViewDelegate
             self.performSegue(withIdentifier: "settingToNotice", sender: nil)
         case 2:
             print("dddddddddd2")
+            self.performSegue(withIdentifier: "settingToNoti", sender: nil)
         case 3:
             print("dddddddddd3")
         case 4:
