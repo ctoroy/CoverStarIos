@@ -75,6 +75,7 @@
 		09E3BA5228092ED7009B56F8 /* PasswdAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E3BA5128092ED7009B56F8 /* PasswdAuthViewController.swift */; };
 		09E49E69284494760027163D /* myInfoChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49E68284494760027163D /* myInfoChangeViewController.swift */; };
 		09E49E6B2844A44E0027163D /* NotiSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49E6A2844A44E0027163D /* NotiSettingViewController.swift */; };
+		09E49E6D2844BAC00027163D /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49E6C2844BAC00027163D /* UIImage.swift */; };
 		09E8F67627F6E3F10052F6A6 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E8F67527F6E3F10052F6A6 /* MyCell.xib */; };
 		09E8F67827F6E6D30052F6A6 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E8F67727F6E6D30052F6A6 /* MyCell.swift */; };
 		09E8F67B27F6E7010052F6A6 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E8F67A27F6E7010052F6A6 /* DropDownCell.xib */; };
@@ -160,6 +161,7 @@
 		09E3BA5128092ED7009B56F8 /* PasswdAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswdAuthViewController.swift; sourceTree = "<group>"; };
 		09E49E68284494760027163D /* myInfoChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myInfoChangeViewController.swift; sourceTree = "<group>"; };
 		09E49E6A2844A44E0027163D /* NotiSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiSettingViewController.swift; sourceTree = "<group>"; };
+		09E49E6C2844BAC00027163D /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		09E8F67527F6E3F10052F6A6 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
 		09E8F67727F6E6D30052F6A6 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		09E8F67A27F6E7010052F6A6 /* DropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 				09EAF778281132F50004017A /* UITextField.swift */,
 				09DFC1C1281F9AB4009144A0 /* String.swift */,
 				09B511132843B5E40070C66F /* UIImageView.swift */,
+				09E49E6C2844BAC00027163D /* UIImage.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -507,6 +510,7 @@
 				09E8F67827F6E6D30052F6A6 /* MyCell.swift in Sources */,
 				0988D5172837DF310016CDF3 /* UIColor+Extensions.swift in Sources */,
 				09AA552227F6BAD000A4EB63 /* SceneDelegate.swift in Sources */,
+				09E49E6D2844BAC00027163D /* UIImage.swift in Sources */,
 				09F1587D27FBE65500FB8BD3 /* CountrySelectController.swift in Sources */,
 				0988D5122837D5AF0016CDF3 /* UserConstantKeys.swift in Sources */,
 				097C31C427F2E602009BEA9B /* NetworkHelper.swift in Sources */,

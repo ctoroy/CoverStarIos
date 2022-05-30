@@ -920,7 +920,7 @@ help@coverstar.world로 문의 주세요. </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tIi-xt-BER">
-                                <rect key="frame" x="0.0" y="32" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="32" width="391" height="44"/>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <items>
                                     <navigationItem title="자기 설정" id="Xec-ag-81E" userLabel="Caption">
@@ -931,23 +931,17 @@ help@coverstar.world로 문의 주세요. </string>
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="프로필 이미지와 닉네임을 설정해 주세요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfU-Cs-V3R">
-                                <rect key="frame" x="35.666666666666657" y="125" width="318.66666666666674" height="24"/>
+                                <rect key="frame" x="35.666666666666657" y="125" width="319.66666666666674" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YAS-71-osQ">
-                                <rect key="frame" x="28" y="186" width="334" height="1"/>
+                                <rect key="frame" x="28" y="186" width="335" height="1"/>
                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_avatar" translatesAutoresizingMaskIntoConstraints="NO" id="9em-iz-bJz">
-                                <rect key="frame" x="153.66666666666666" y="214" width="82.666666666666657" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="JiR-eX-kon"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IbN-7d-F8V">
-                                <rect key="frame" x="0.0" y="754" width="390" height="56"/>
+                                <rect key="frame" x="0.0" y="754" width="391" height="56"/>
                                 <color key="backgroundColor" red="0.9491799474" green="0.58946612549999999" blue="0.66692498980000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="yVn-DO-e78"/>
@@ -989,6 +983,12 @@ help@coverstar.world로 문의 주세요. </string>
                                     <action selector="setImage:" destination="yBk-SO-p3F" eventType="touchUpInside" id="a7k-TB-Uil"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="icn_avatar" translatesAutoresizingMaskIntoConstraints="NO" id="9em-iz-bJz">
+                                <rect key="frame" x="131" y="214" width="128" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="CCU-TD-k85"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RnA-bX-SlQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -996,23 +996,25 @@ help@coverstar.world로 문의 주세요. </string>
                             <constraint firstItem="ePI-Im-RUx" firstAttribute="top" secondItem="fjo-RQ-ice" secondAttribute="bottom" constant="36" id="0BL-h5-rcc"/>
                             <constraint firstItem="tIi-xt-BER" firstAttribute="top" secondItem="Tws-Yu-hQI" secondAttribute="topMargin" constant="-12" id="2wF-00-rYM"/>
                             <constraint firstItem="fjo-RQ-ice" firstAttribute="leading" secondItem="ePI-Im-RUx" secondAttribute="leading" id="3yU-JR-c0W"/>
+                            <constraint firstItem="9em-iz-bJz" firstAttribute="top" secondItem="YAS-71-osQ" secondAttribute="bottom" constant="27" id="5z3-X1-uQI"/>
                             <constraint firstItem="fMR-Wa-wZI" firstAttribute="leading" secondItem="ePI-Im-RUx" secondAttribute="trailing" constant="8" symbolic="YES" id="Aez-u3-CuP"/>
-                            <constraint firstItem="9em-iz-bJz" firstAttribute="top" secondItem="YAS-71-osQ" secondAttribute="bottom" constant="27" id="FHp-1l-kcO"/>
                             <constraint firstItem="RnA-bX-SlQ" firstAttribute="trailing" secondItem="fMR-Wa-wZI" secondAttribute="trailing" constant="25" id="HCD-VR-DdC"/>
+                            <constraint firstItem="9em-iz-bJz" firstAttribute="centerX" secondItem="YAS-71-osQ" secondAttribute="centerX" id="HW0-t4-1Lu"/>
                             <constraint firstItem="tIi-xt-BER" firstAttribute="trailing" secondItem="IbN-7d-F8V" secondAttribute="trailing" id="HkO-wn-A5o"/>
+                            <constraint firstItem="fjo-RQ-ice" firstAttribute="top" secondItem="9em-iz-bJz" secondAttribute="bottom" constant="51" id="MXP-5y-Yrf"/>
                             <constraint firstItem="ePI-Im-RUx" firstAttribute="centerY" secondItem="fMR-Wa-wZI" secondAttribute="centerY" id="N7v-JJ-fD2"/>
                             <constraint firstItem="tIi-xt-BER" firstAttribute="leading" secondItem="Tws-Yu-hQI" secondAttribute="leading" id="PQF-en-cDA"/>
+                            <constraint firstItem="9em-iz-bJz" firstAttribute="top" secondItem="Tws-Yu-hQI" secondAttribute="top" constant="214" id="VSe-B3-aHs"/>
                             <constraint firstItem="RfU-Cs-V3R" firstAttribute="centerX" secondItem="YAS-71-osQ" secondAttribute="centerX" id="XlF-Xv-Fv8"/>
                             <constraint firstItem="RfU-Cs-V3R" firstAttribute="top" secondItem="tIi-xt-BER" secondAttribute="bottom" constant="49" id="anE-zc-9KL"/>
                             <constraint firstItem="RnA-bX-SlQ" firstAttribute="trailing" secondItem="fjo-RQ-ice" secondAttribute="trailing" constant="28" id="bUn-az-Dkd"/>
-                            <constraint firstItem="fjo-RQ-ice" firstAttribute="top" secondItem="9em-iz-bJz" secondAttribute="bottom" constant="51" id="ekZ-xM-YKr"/>
+                            <constraint firstItem="9em-iz-bJz" firstAttribute="centerX" secondItem="fjo-RQ-ice" secondAttribute="centerX" id="fAx-41-UtC"/>
                             <constraint firstItem="tIi-xt-BER" firstAttribute="leading" secondItem="IbN-7d-F8V" secondAttribute="leading" id="fxr-Ds-YpO"/>
+                            <constraint firstItem="9em-iz-bJz" firstAttribute="leading" secondItem="RnA-bX-SlQ" secondAttribute="leading" constant="131" id="gvH-RY-hxw"/>
                             <constraint firstItem="RfU-Cs-V3R" firstAttribute="leading" secondItem="RnA-bX-SlQ" secondAttribute="leading" constant="35.666666666666657" id="hHe-Jz-suD"/>
                             <constraint firstItem="YAS-71-osQ" firstAttribute="top" secondItem="RfU-Cs-V3R" secondAttribute="bottom" constant="37" id="hXA-We-EkP"/>
                             <constraint firstItem="IbN-7d-F8V" firstAttribute="bottom" secondItem="RnA-bX-SlQ" secondAttribute="bottom" id="my5-G5-CjZ"/>
                             <constraint firstItem="YAS-71-osQ" firstAttribute="leading" secondItem="Tws-Yu-hQI" secondAttribute="leadingMargin" constant="12" id="rFJ-dv-089"/>
-                            <constraint firstItem="YAS-71-osQ" firstAttribute="centerX" secondItem="9em-iz-bJz" secondAttribute="centerX" id="sFf-Tg-8Zm"/>
-                            <constraint firstItem="9em-iz-bJz" firstAttribute="top" secondItem="Tws-Yu-hQI" secondAttribute="top" constant="214" id="vqB-li-h5Y"/>
                             <constraint firstItem="fjo-RQ-ice" firstAttribute="leading" secondItem="RnA-bX-SlQ" secondAttribute="leading" constant="29" id="weu-5a-Gda"/>
                             <constraint firstItem="tIi-xt-BER" firstAttribute="centerX" secondItem="RfU-Cs-V3R" secondAttribute="centerX" id="xPg-Xu-Fwo"/>
                             <constraint firstItem="fMR-Wa-wZI" firstAttribute="top" secondItem="fjo-RQ-ice" secondAttribute="bottom" constant="8" symbolic="YES" id="y2W-hc-8Rk"/>

@@ -18,6 +18,21 @@ class myInfoChangeViewCOntroller: BaseViewController {
     @IBOutlet weak var imgProfile: UIImageView!
     @IBOutlet weak var btnImageSet: UIButton!
     
+    private func downloadImage(with urlString: String) {
+      guard let url = URL(string: urlString) else { return }
+      let resource = ImageResource(downloadURL: url)
+      KingfisherManager.shared.retrieveImage(with: resource,
+                                             options: nil,
+                                             progressBlock: nil) { result in
+        switch result {
+        case .success(let value):
+          print(value.image)
+        case .failure(let error):
+          print("Error: \(error)")
+        }
+      }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,25 +41,39 @@ class myInfoChangeViewCOntroller: BaseViewController {
         print("countryNo="+Static.countryNo)
         print("phoneNumber="+Static.userId.replace("+", ""))
         
-        guard let url = URL(string: Static.userProfileImage) else { return }
-        
-        self.imgProfile.layer.cornerRadius = self.imgProfile.frame.height/2
-        self.imgProfile.layer.borderWidth = 1
-        self.imgProfile.layer.borderColor = UIColor.clear.cgColor
-        // 뷰의 경계에 맞춰준다
-        self.imgProfile.clipsToBounds = true
-        
-        let cornerImageProcessor = RoundCornerImageProcessor(cornerRadius: 30)
-        self.imgProfile.kf.indicatorType = .activity
-        self.imgProfile.kf.setImage(
-          with: url,
-          placeholder: nil,
-          options: [
-            .transition(.fade(1.2)),
-            .forceTransition,
-            .processor(cornerImageProcessor)
-          ],
-          completionHandler: nil)
+        DispatchQueue.main.async {
+            
+            self.imgProfile.kf.setImage(with: URL(string: Static.userProfileImage), placeholder: nil, options: nil, progressBlock: nil, completionHandler: { result in
+                switch result {
+                    case .success(let value):
+                                print("Image: \(value.image). Got from: \(value.cacheType)")
+                    self.imgProfile.image = value.image.cropToCircle()
+                    case .failure(let error):
+                                print("Error: \(error)")
+                    }
+                })
+            
+            
+//            guard let url = URL(string: Static.userProfileImage) else { return }
+//
+//            self.imgProfile.layer.cornerRadius = (self.imgProfile.frame.size.width) / 2
+//            self.imgProfile.layer.borderWidth = 1
+//            self.imgProfile.layer.borderColor = UIColor.clear.cgColor
+//            // 뷰의 경계에 맞춰준다
+//            self.imgProfile.clipsToBounds = true
+//
+//            let cornerImageProcessor = RoundCornerImageProcessor(cornerRadius: 30)
+//            self.imgProfile.kf.indicatorType = .activity
+//            self.imgProfile.kf.setImage(
+//              with: url,
+//              placeholder: nil,
+//              options: [
+//                .transition(.fade(1.2)),
+//                .forceTransition,
+//                .processor(cornerImageProcessor)
+//              ],
+//              completionHandler: nil)
+        }
         
         txtNickName.text = Static.userName
         
@@ -61,6 +90,7 @@ class myInfoChangeViewCOntroller: BaseViewController {
        
         
         bBtnBack.action = #selector(backButtonPressed(sender:))
+        
     }
     
     @objc func backButtonPressed(sender: UIBarButtonItem) {

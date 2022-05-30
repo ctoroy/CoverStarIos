@@ -25,6 +25,7 @@ class MyPaegViewViewController: UIViewController {
             guard let url = URL(string: Static.userProfileImage) else { return }
             
             self.imgMyFace.layer.cornerRadius = self.imgMyFace.frame.height/2
+            self.imgMyFace.layer.masksToBounds = false
             self.imgMyFace.layer.borderWidth = 1
             self.imgMyFace.layer.borderColor = UIColor.clear.cgColor
             // 뷰의 경계에 맞춰준다
