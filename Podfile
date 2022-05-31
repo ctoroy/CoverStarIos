@@ -24,6 +24,7 @@ target 'CoverStar' do
   pod 'SwiftyJSON', '~> 4.0'
   pod 'Kingfisher', '~> 7.0'
   pod 'SwipeViewController'
+  pod 'FoldingCell'
 
   # Pods for CoverStar
 

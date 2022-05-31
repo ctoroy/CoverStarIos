@@ -86,6 +86,7 @@
 		09EF585D2820E87C0000457D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EF585C2820E87C0000457D /* MainView.swift */; };
 		09EF585F2821116D0000457D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EF585E2821116D0000457D /* Common.swift */; };
 		09F1587D27FBE65500FB8BD3 /* CountrySelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1587C27FBE65500FB8BD3 /* CountrySelectController.swift */; };
+		09F5C32E2845F18700E9FCDB /* foldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5C32D2845F18700E9FCDB /* foldingCell.swift */; };
 		E175F583C2D8A8C3F7615C4B /* Pods_CoverStar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1261F579FC94674F9D89CDAF /* Pods_CoverStar.framework */; };
 /* End PBXBuildFile section */
 
@@ -172,6 +173,7 @@
 		09EF585C2820E87C0000457D /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		09EF585E2821116D0000457D /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		09F1587C27FBE65500FB8BD3 /* CountrySelectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectController.swift; sourceTree = "<group>"; };
+		09F5C32D2845F18700E9FCDB /* foldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foldingCell.swift; sourceTree = "<group>"; };
 		1261F579FC94674F9D89CDAF /* Pods_CoverStar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoverStar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		819A59B9195A9E4CAE18A646 /* Pods-CoverStar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverStar.release.xcconfig"; path = "Target Support Files/Pods-CoverStar/Pods-CoverStar.release.xcconfig"; sourceTree = "<group>"; };
 		A4D4884B2B57B162BD4A7128 /* Pods-CoverStar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverStar.debug.xcconfig"; path = "Target Support Files/Pods-CoverStar/Pods-CoverStar.debug.xcconfig"; sourceTree = "<group>"; };
@@ -355,6 +357,7 @@
 				0988D4F62837CB030016CDF3 /* ThreeBtnInputPopupView.xib */,
 				0988D4F72837CB030016CDF3 /* TitleAndPwInputPopupView.swift */,
 				0988D4F22837CB020016CDF3 /* TitleAndPwInputPopupView.xib */,
+				09F5C32D2845F18700E9FCDB /* foldingCell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -519,6 +522,7 @@
 				09D795AA280D0B4200C7C995 /* CreateWalletViewController.swift in Sources */,
 				09B511182843C4550070C66F /* BaseTableViewController.swift in Sources */,
 				09E49E6B2844A44E0027163D /* NotiSettingViewController.swift in Sources */,
+				09F5C32E2845F18700E9FCDB /* foldingCell.swift in Sources */,
 				09CFF20827FEB79400079508 /* LegalAgreeViewModel.swift in Sources */,
 				09D795A6280CFFBF00C7C995 /* MyInfoSetViewController.swift in Sources */,
 				09B6D2C828436F9E00149F96 /* JoinViewController.swift in Sources */,

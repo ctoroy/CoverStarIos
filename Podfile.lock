@@ -683,6 +683,7 @@ PODS:
     - GoogleUtilities/Reachability (~> 7.7)
     - GoogleUtilities/UserDefaults (~> 7.7)
     - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FoldingCell (5.0.2)
   - GoogleAppMeasurement (9.1.0):
     - GoogleAppMeasurement/AdIdSupport (= 9.1.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
@@ -810,6 +811,7 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Firestore
   - Firebase/Messaging
+  - FoldingCell
   - Kingfisher (~> 7.0)
   - RxCocoa
   - RxSwift
@@ -832,6 +834,7 @@ SPEC REPOS:
     - FirebaseFirestore
     - FirebaseInstallations
     - FirebaseMessaging
+    - FoldingCell
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleUtilities
@@ -864,6 +867,7 @@ SPEC CHECKSUMS:
   FirebaseFirestore: 20b1df7d65058b038745ecebb60f741a10e40a6f
   FirebaseInstallations: a91c74276b544524ce144c8315d8cdbce2dbe30b
   FirebaseMessaging: 0bf5caa621182ccc66ba3be3b15e68d800d98e9f
+  FoldingCell: f92eb5fb9842319e7cd08c71533c98408b785099
   GoogleAppMeasurement: 8ecc717f2abe3f9ee95a5d38db08827852894acc
   GoogleDataTransport: 5fffe35792f8b96ec8d6775f5eccd83c998d5a3b
   GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
@@ -881,6 +885,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
   SwipeViewController: 87ac3b72473f2caee7b84a7761c9367501fd557a
 
-PODFILE CHECKSUM: 698e3aa54f160be982c6206384577d46ac4d3b9c
+PODFILE CHECKSUM: 3d9bce1f6a120fd0907a49d8df5910a3bf8ea5b7
 
 COCOAPODS: 1.11.3

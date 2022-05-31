@@ -135,7 +135,7 @@
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ruz-cj-CSy">
-                                <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
@@ -204,7 +204,7 @@
                             <constraint firstItem="yNH-jj-TwS" firstAttribute="trailing" secondItem="IF2-zp-VeT" secondAttribute="trailing" constant="57" id="dKm-gY-80B"/>
                             <constraint firstItem="ruz-cj-CSy" firstAttribute="trailing" secondItem="wXK-WS-vPR" secondAttribute="trailing" id="f19-J4-Jmm"/>
                             <constraint firstItem="50p-YF-WYr" firstAttribute="centerX" secondItem="0nE-8T-srj" secondAttribute="centerX" id="fYY-0h-OZx"/>
-                            <constraint firstItem="ruz-cj-CSy" firstAttribute="top" secondItem="yNH-jj-TwS" secondAttribute="top" id="iGU-iV-5aQ"/>
+                            <constraint firstItem="ruz-cj-CSy" firstAttribute="top" secondItem="yNH-jj-TwS" secondAttribute="top" constant="6" id="iGU-iV-5aQ"/>
                             <constraint firstItem="ruz-cj-CSy" firstAttribute="centerX" secondItem="P5h-Tl-rUb" secondAttribute="centerX" id="itY-0C-BXV"/>
                             <constraint firstItem="LWG-al-cU1" firstAttribute="centerX" secondItem="P5h-Tl-rUb" secondAttribute="centerX" id="jgR-js-RC8"/>
                             <constraint firstItem="0nE-8T-srj" firstAttribute="trailing" secondItem="P5h-Tl-rUb" secondAttribute="trailing" constant="8" id="juG-4k-eRu"/>
@@ -238,7 +238,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qWC-Il-Lj1">
-                                <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <items>
                                     <navigationItem title="본인 인증" id="Iun-29-yPK" userLabel="Caption">
@@ -311,14 +311,14 @@
                         <constraints>
                             <constraint firstItem="qWC-Il-Lj1" firstAttribute="leading" secondItem="rMR-9U-lB5" secondAttribute="leading" id="GY1-8A-wCc"/>
                             <constraint firstItem="1Fo-uR-i9w" firstAttribute="centerX" secondItem="hca-Nv-ppN" secondAttribute="centerX" id="JI4-du-4jw"/>
-                            <constraint firstItem="qWC-Il-Lj1" firstAttribute="top" secondItem="rMR-9U-lB5" secondAttribute="topMargin" id="Rbd-Zf-HcL"/>
+                            <constraint firstItem="qWC-Il-Lj1" firstAttribute="top" secondItem="rMR-9U-lB5" secondAttribute="topMargin" constant="6" id="Rbd-Zf-HcL"/>
                             <constraint firstItem="E1t-ho-OQC" firstAttribute="centerX" secondItem="qWC-Il-Lj1" secondAttribute="centerX" id="Rgw-qo-feI"/>
                             <constraint firstItem="hca-Nv-ppN" firstAttribute="leading" secondItem="dGk-P6-ysz" secondAttribute="leading" constant="19" id="YXc-eu-LJI"/>
                             <constraint firstItem="dmL-vD-1lc" firstAttribute="bottom" secondItem="dGk-P6-ysz" secondAttribute="bottom" id="Yaz-ul-a44"/>
                             <constraint firstItem="6BW-uf-bNS" firstAttribute="centerY" secondItem="hca-Nv-ppN" secondAttribute="centerY" id="ZT9-hj-eke"/>
                             <constraint firstItem="1Fo-uR-i9w" firstAttribute="top" secondItem="6BW-uf-bNS" secondAttribute="bottom" constant="5" id="eX4-jb-kQV"/>
                             <constraint firstItem="dGk-P6-ysz" firstAttribute="trailing" secondItem="6BW-uf-bNS" secondAttribute="trailing" constant="36" id="geP-8F-gdz"/>
-                            <constraint firstItem="E1t-ho-OQC" firstAttribute="top" secondItem="qWC-Il-Lj1" secondAttribute="bottom" constant="36" id="hF3-8M-Yhx"/>
+                            <constraint firstItem="E1t-ho-OQC" firstAttribute="top" secondItem="qWC-Il-Lj1" secondAttribute="bottom" constant="30" id="hF3-8M-Yhx"/>
                             <constraint firstItem="f26-bn-Pl2" firstAttribute="top" secondItem="E1t-ho-OQC" secondAttribute="bottom" constant="24" id="ici-ie-Qyz"/>
                             <constraint firstItem="6BW-uf-bNS" firstAttribute="top" secondItem="rMR-9U-lB5" secondAttribute="top" constant="161" id="ie4-yT-iH9"/>
                             <constraint firstItem="hca-Nv-ppN" firstAttribute="centerX" secondItem="E1t-ho-OQC" secondAttribute="centerX" id="jdp-ny-TrP"/>
@@ -354,7 +354,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PJj-Ct-Wkm">
-                                <rect key="frame" x="0.0" y="31" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <items>
                                     <navigationItem title="본인 인증" id="mPD-Rm-LXq" userLabel="Caption">
@@ -442,7 +442,7 @@
                             <constraint firstItem="eK7-Ch-e6U" firstAttribute="centerX" secondItem="MBG-y4-Xp3" secondAttribute="centerX" id="kHl-pt-eKO"/>
                             <constraint firstItem="eK7-Ch-e6U" firstAttribute="centerX" secondItem="PJj-Ct-Wkm" secondAttribute="centerX" id="l5b-iw-etx"/>
                             <constraint firstItem="ujO-WE-W4q" firstAttribute="leading" secondItem="uBk-td-sif" secondAttribute="leading" constant="25" id="pUK-rb-ak6"/>
-                            <constraint firstItem="MBG-y4-Xp3" firstAttribute="top" secondItem="PJj-Ct-Wkm" secondAttribute="bottom" constant="51" id="pt9-df-qMv"/>
+                            <constraint firstItem="MBG-y4-Xp3" firstAttribute="top" secondItem="PJj-Ct-Wkm" secondAttribute="bottom" constant="32" id="pt9-df-qMv"/>
                             <constraint firstItem="ujO-WE-W4q" firstAttribute="top" secondItem="IW2-Mk-Q77" secondAttribute="bottom" constant="9.6666666666665151" id="tSy-5n-kkx"/>
                             <constraint firstItem="IW2-Mk-Q77" firstAttribute="top" secondItem="eK7-Ch-e6U" secondAttribute="bottom" constant="23" id="u91-i0-Qdo"/>
                         </constraints>
@@ -487,7 +487,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="diC-m7-bGP">
-                                <rect key="frame" x="0.0" y="45" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <items>
@@ -550,7 +550,7 @@
                             <constraint firstItem="Sfn-W6-Efn" firstAttribute="leading" secondItem="ysH-9n-aCr" secondAttribute="trailing" constant="5" id="Sbe-OC-gjF"/>
                             <constraint firstItem="aoU-WV-Vji" firstAttribute="leading" secondItem="WON-Dn-tpN" secondAttribute="leading" constant="10" id="Sbv-Cb-I7g"/>
                             <constraint firstItem="ECG-5l-40U" firstAttribute="top" secondItem="WON-Dn-tpN" secondAttribute="bottom" constant="71" id="Udg-O7-IVs"/>
-                            <constraint firstItem="diC-m7-bGP" firstAttribute="top" secondItem="dLs-kq-npC" secondAttribute="top" constant="1" id="brd-0Y-IEs"/>
+                            <constraint firstItem="diC-m7-bGP" firstAttribute="top" secondItem="dLs-kq-npC" secondAttribute="top" constant="6" id="brd-0Y-IEs"/>
                             <constraint firstItem="dLs-kq-npC" firstAttribute="trailing" secondItem="Sfn-W6-Efn" secondAttribute="trailing" constant="59" id="hTQ-3i-ycZ"/>
                             <constraint firstItem="hOW-Rf-KTq" firstAttribute="centerX" secondItem="diC-m7-bGP" secondAttribute="centerX" id="iL3-dD-lpl"/>
                             <constraint firstItem="dLs-kq-npC" firstAttribute="trailing" secondItem="WON-Dn-tpN" secondAttribute="trailing" constant="-10" id="kxu-XT-52F"/>
@@ -558,7 +558,7 @@
                             <constraint firstItem="ECG-5l-40U" firstAttribute="trailing" secondItem="diC-m7-bGP" secondAttribute="trailing" id="rPS-ni-nlU"/>
                             <constraint firstItem="ECG-5l-40U" firstAttribute="leading" secondItem="diC-m7-bGP" secondAttribute="leading" id="uJu-DA-eg1"/>
                             <constraint firstItem="ysH-9n-aCr" firstAttribute="top" secondItem="aoU-WV-Vji" secondAttribute="bottom" constant="32" id="ueU-6g-mpA"/>
-                            <constraint firstItem="hOW-Rf-KTq" firstAttribute="top" secondItem="diC-m7-bGP" secondAttribute="bottom" constant="40" id="zjL-nE-mBa"/>
+                            <constraint firstItem="hOW-Rf-KTq" firstAttribute="top" secondItem="diC-m7-bGP" secondAttribute="bottom" constant="35" id="zjL-nE-mBa"/>
                         </constraints>
                     </view>
                     <connections>
@@ -626,7 +626,7 @@
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A0Y-8o-ISH">
-                                <rect key="frame" x="0.0" y="44" width="390" height="26"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="26"/>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" name="NotoSansOriya-Bold" family="Noto Sans Oriya" pointSize="18"/>
@@ -681,8 +681,8 @@
                             <constraint firstItem="XAZ-DH-qKu" firstAttribute="leading" secondItem="cGx-qh-Pcj" secondAttribute="leadingMargin" constant="12" id="nKG-12-fbH"/>
                             <constraint firstItem="Gfc-wk-nfr" firstAttribute="centerX" secondItem="vFB-9b-1gX" secondAttribute="centerX" id="nfu-eu-gnN"/>
                             <constraint firstItem="A0Y-8o-ISH" firstAttribute="trailing" secondItem="17Q-3D-F6n" secondAttribute="trailing" id="p2i-9A-bLS"/>
-                            <constraint firstItem="A0Y-8o-ISH" firstAttribute="top" secondItem="cGx-qh-Pcj" secondAttribute="topMargin" id="qG7-Yx-DJM"/>
-                            <constraint firstItem="Gfc-wk-nfr" firstAttribute="top" secondItem="A0Y-8o-ISH" secondAttribute="bottom" constant="52" id="ur0-54-50C"/>
+                            <constraint firstItem="A0Y-8o-ISH" firstAttribute="top" secondItem="cGx-qh-Pcj" secondAttribute="topMargin" constant="6" id="qG7-Yx-DJM"/>
+                            <constraint firstItem="Gfc-wk-nfr" firstAttribute="top" secondItem="A0Y-8o-ISH" secondAttribute="bottom" constant="46" id="ur0-54-50C"/>
                         </constraints>
                     </view>
                     <connections>
@@ -706,7 +706,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cjb-7e-hVy">
-                                <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
@@ -884,7 +884,7 @@ help@coverstar.world로 문의 주세요. </string>
                             <constraint firstItem="YJ3-5P-PYs" firstAttribute="leading" secondItem="fAt-Du-d1Y" secondAttribute="leading" id="mfT-JU-wob"/>
                             <constraint firstItem="Y9C-6x-ZbY" firstAttribute="top" secondItem="OuB-fP-m8D" secondAttribute="bottom" constant="22" id="nn1-fl-IQR"/>
                             <constraint firstItem="com-VC-qki" firstAttribute="centerX" secondItem="eOV-Wb-e3M" secondAttribute="centerX" constant="25" id="p9U-QB-2Ej"/>
-                            <constraint firstItem="com-VC-qki" firstAttribute="top" secondItem="Cjb-7e-hVy" secondAttribute="bottom" constant="36" id="rD9-8a-7Nx"/>
+                            <constraint firstItem="com-VC-qki" firstAttribute="top" secondItem="Cjb-7e-hVy" secondAttribute="bottom" constant="30" id="rD9-8a-7Nx"/>
                             <constraint firstItem="Y9C-6x-ZbY" firstAttribute="bottom" secondItem="8CO-AQ-jBs" secondAttribute="bottom" id="uvh-IW-aWt"/>
                             <constraint firstItem="Y9C-6x-ZbY" firstAttribute="top" secondItem="AjZ-Xk-2Hw" secondAttribute="top" id="xEF-ze-HT9"/>
                             <constraint firstItem="OuB-fP-m8D" firstAttribute="centerX" secondItem="Cjb-7e-hVy" secondAttribute="centerX" id="xpq-nO-DvB"/>
@@ -919,11 +919,11 @@ help@coverstar.world로 문의 주세요. </string>
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tIi-xt-BER">
-                                <rect key="frame" x="0.0" y="32" width="391" height="44"/>
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tIi-xt-BER">
+                                <rect key="frame" x="0.0" y="50" width="391" height="44"/>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <items>
-                                    <navigationItem title="자기 설정" id="Xec-ag-81E" userLabel="Caption">
+                                    <navigationItem title="개인정보" id="Xec-ag-81E" userLabel="Caption">
                                         <barButtonItem key="leftBarButtonItem" image="icn_back" id="ODK-3X-uK5" userLabel="back">
                                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </barButtonItem>
@@ -1043,7 +1043,7 @@ help@coverstar.world로 문의 주세요. </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Meb-Gn-0av">
-                                <rect key="frame" x="0.0" y="32" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <items>
@@ -1124,7 +1124,7 @@ help@coverstar.world로 문의 주세요. </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9fv-Lv-bPp">
-                                <rect key="frame" x="0.0" y="33" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <items>
@@ -1209,7 +1209,7 @@ help@coverstar.world로 문의 주세요. </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ayA-4N-9nM">
-                                <rect key="frame" x="0.0" y="31" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <textAttributes key="titleTextAttributes">
@@ -1227,17 +1227,12 @@ help@coverstar.world로 문의 주세요. </string>
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="비밀번호를 설정해주세요." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t3X-f6-Q9K">
-                                <rect key="frame" x="95" y="143" width="201" height="24"/>
+                                <rect key="frame" x="95" y="163" width="201" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z8r-gv-09E">
-                                <rect key="frame" x="28" y="241" width="335" height="1"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGray4Color"/>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FjU-x1-Hmq">
                                 <rect key="frame" x="0.0" y="754" width="390" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1252,11 +1247,11 @@ help@coverstar.world로 문의 주세요. </string>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nw8-Is-kVx">
-                                <rect key="frame" x="0.0" y="389" width="390" height="367"/>
+                                <rect key="frame" x="0.0" y="410" width="390" height="346"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icn_passwd" translatesAutoresizingMaskIntoConstraints="NO" id="arl-ox-v9S">
-                                        <rect key="frame" x="131" y="28" width="129" height="134"/>
+                                        <rect key="frame" x="131" y="23" width="129" height="134"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="비밀번호를 꼭 기억해 주세요." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5k-ig-hca">
@@ -1267,7 +1262,7 @@ help@coverstar.world로 문의 주세요. </string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nyt-2e-vM8">
-                                        <rect key="frame" x="22" y="196" width="347" height="150"/>
+                                        <rect key="frame" x="22" y="182" width="347" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">블록체인 기술 기반의 스타체인 지갑과 연동이 되어있어, 
 비밀번호 복구 및 재설정이 불가능 하며, 
@@ -1277,26 +1272,35 @@ help@coverstar.world로 문의 주세요. </string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="동의합니다." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YbV-Dj-f1g">
-                                        <rect key="frame" x="167" y="312" width="93" height="24"/>
+                                        <rect key="frame" x="167" y="304" width="93" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icn_check" translatesAutoresizingMaskIntoConstraints="NO" id="cb3-T6-2Ky">
+                                        <rect key="frame" x="131" y="304" width="20" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bfM-gS-pnJ">
-                                        <rect key="frame" x="116" y="305" width="35" height="35"/>
+                                        <rect key="frame" x="124" y="297" width="35" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="tintColor" red="0.94901960780000005" green="0.58823529409999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icn_check" translatesAutoresizingMaskIntoConstraints="NO" id="cb3-T6-2Ky">
-                                        <rect key="frame" x="124" y="312" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="starChainLogo" translatesAutoresizingMaskIntoConstraints="NO" id="3Io-ga-uPN">
+                                <rect key="frame" x="109" y="108" width="173.33333333333331" height="35.333333333333329"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z8r-gv-09E">
+                                <rect key="frame" x="28" y="268" width="335" height="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                            </view>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="p2X-6G-sBh">
-                                <rect key="frame" x="55" y="181" width="40" height="50"/>
+                                <rect key="frame" x="55" y="208" width="40" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1304,7 +1308,7 @@ help@coverstar.world로 문의 주세요. </string>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="CgK-OA-fID">
-                                <rect key="frame" x="103" y="181" width="40" height="50"/>
+                                <rect key="frame" x="103" y="208" width="40" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1312,7 +1316,7 @@ help@coverstar.world로 문의 주세요. </string>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="eZ6-KY-X7u">
-                                <rect key="frame" x="151" y="181" width="40" height="50"/>
+                                <rect key="frame" x="151" y="208" width="40" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1320,7 +1324,7 @@ help@coverstar.world로 문의 주세요. </string>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="8IY-5E-NRd">
-                                <rect key="frame" x="199" y="181" width="40" height="50"/>
+                                <rect key="frame" x="199" y="208" width="40" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1328,7 +1332,7 @@ help@coverstar.world로 문의 주세요. </string>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="uuB-LY-QSU">
-                                <rect key="frame" x="247" y="181" width="40" height="50"/>
+                                <rect key="frame" x="247" y="208" width="40" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1336,19 +1340,15 @@ help@coverstar.world로 문의 주세요. </string>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="T9C-kl-rRc">
-                                <rect key="frame" x="295" y="181" width="40" height="50"/>
+                                <rect key="frame" x="295" y="208" width="40" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="starChainLogo" translatesAutoresizingMaskIntoConstraints="NO" id="3Io-ga-uPN">
-                                <rect key="frame" x="109" y="87.999999999999886" width="173.33333333333331" height="35.333333333333329"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYL-MX-eHh">
-                                <rect key="frame" x="108" y="326" width="175" height="39"/>
+                                <rect key="frame" x="108" y="353" width="175" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">입력하신 비밀번호 6자리를 
 다시 한번 입력해 주세요.</string>
@@ -1357,7 +1357,7 @@ help@coverstar.world로 문의 주세요. </string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="TTi-cf-g1a">
-                                <rect key="frame" x="55" y="254" width="40" height="50"/>
+                                <rect key="frame" x="55" y="281" width="40" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1365,7 +1365,7 @@ help@coverstar.world로 문의 주세요. </string>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="EJn-xJ-a9u">
-                                <rect key="frame" x="103" y="254" width="40" height="50"/>
+                                <rect key="frame" x="103" y="281" width="40" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1373,7 +1373,7 @@ help@coverstar.world로 문의 주세요. </string>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="rED-Dw-VjC">
-                                <rect key="frame" x="151" y="254" width="40" height="50"/>
+                                <rect key="frame" x="151" y="281" width="40" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1381,7 +1381,7 @@ help@coverstar.world로 문의 주세요. </string>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ORT-dC-OpI">
-                                <rect key="frame" x="199" y="254" width="40" height="50"/>
+                                <rect key="frame" x="199" y="281" width="40" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1389,7 +1389,7 @@ help@coverstar.world로 문의 주세요. </string>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="6Da-dH-BMp">
-                                <rect key="frame" x="247" y="254" width="40" height="50"/>
+                                <rect key="frame" x="247" y="281" width="40" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1397,7 +1397,7 @@ help@coverstar.world로 문의 주세요. </string>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="65f-qT-NeU">
-                                <rect key="frame" x="295" y="254" width="40" height="50"/>
+                                <rect key="frame" x="295" y="281" width="40" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1522,7 +1522,7 @@ help@coverstar.world로 문의 주세요. </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" shadowImage="clear" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="w7N-BV-VoD">
-                                <rect key="frame" x="0.0" y="31" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1544,7 +1544,7 @@ help@coverstar.world로 문의 주세요. </string>
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASH-Qn-VHe">
-                                <rect key="frame" x="16" y="75" width="358" height="31"/>
+                                <rect key="frame" x="16" y="95" width="358" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.94901960780000005" green="0.58823529409999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -1585,25 +1585,8 @@ help@coverstar.world로 문의 주세요. </string>
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvj-Vd-Tjw">
-                                <rect key="frame" x="13" y="78" width="82" height="46"/>
-                                <color key="tintColor" red="0.94901960780000005" green="0.58823529409999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="polygon" imagePlacement="trailing" imagePadding="5">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="최신순  ">
-                                            <attributes>
-                                                <font key="NSFont" size="14" name="AppleSDGothicNeo-Bold"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="btnFilter_click:" destination="Xzi-J6-8Cw" eventType="touchUpInside" id="QML-DQ-odf"/>
-                                </connections>
-                            </button>
                             <navigationBar contentMode="scaleToFill" shadowImage="clear" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="JYo-9N-fxo">
-                                <rect key="frame" x="0.0" y="31" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1623,17 +1606,34 @@ help@coverstar.world로 문의 주세요. </string>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvj-Vd-Tjw">
+                                <rect key="frame" x="16" y="105" width="82" height="46"/>
+                                <color key="tintColor" red="0.94901960780000005" green="0.58823529409999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="polygon" imagePlacement="trailing" imagePadding="5">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="최신순  ">
+                                            <attributes>
+                                                <font key="NSFont" size="14" name="AppleSDGothicNeo-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btnFilter_click:" destination="Xzi-J6-8Cw" eventType="touchUpInside" id="QML-DQ-odf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2td-vz-Kzb"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="JYo-9N-fxo" firstAttribute="leading" secondItem="mpi-uC-4PH" secondAttribute="leading" id="ClT-oE-EIW"/>
                             <constraint firstAttribute="trailing" secondItem="JYo-9N-fxo" secondAttribute="trailing" id="SMu-LF-IwT"/>
-                            <constraint firstItem="JYo-9N-fxo" firstAttribute="top" secondItem="mpi-uC-4PH" secondAttribute="top" constant="31" id="WRm-A2-NDK"/>
-                            <constraint firstItem="Vvj-Vd-Tjw" firstAttribute="top" secondItem="JYo-9N-fxo" secondAttribute="bottom" constant="3" id="XDS-7d-wRC"/>
-                            <constraint firstItem="2td-vz-Kzb" firstAttribute="bottom" secondItem="Vvj-Vd-Tjw" secondAttribute="bottom" constant="637" id="mrA-PY-xVx"/>
+                            <constraint firstItem="JYo-9N-fxo" firstAttribute="top" secondItem="mpi-uC-4PH" secondAttribute="top" constant="50" id="WRm-A2-NDK"/>
+                            <constraint firstItem="Vvj-Vd-Tjw" firstAttribute="top" secondItem="JYo-9N-fxo" secondAttribute="bottom" constant="11" id="XDS-7d-wRC"/>
+                            <constraint firstItem="2td-vz-Kzb" firstAttribute="bottom" secondItem="Vvj-Vd-Tjw" secondAttribute="bottom" constant="610" id="mrA-PY-xVx"/>
                             <constraint firstItem="2td-vz-Kzb" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Vvj-Vd-Tjw" secondAttribute="trailing" symbolic="YES" id="nF8-5c-XBd"/>
-                            <constraint firstItem="Vvj-Vd-Tjw" firstAttribute="leading" secondItem="2td-vz-Kzb" secondAttribute="leading" constant="13" id="wNj-xy-8Ge"/>
+                            <constraint firstItem="Vvj-Vd-Tjw" firstAttribute="leading" secondItem="2td-vz-Kzb" secondAttribute="leading" constant="16" id="wNj-xy-8Ge"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="홈" image="icn_home" id="kad-gS-jCw"/>
@@ -1659,7 +1659,7 @@ help@coverstar.world로 문의 주세요. </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l6s-1c-sgE">
-                                <rect key="frame" x="0.0" y="31" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <textAttributes key="titleTextAttributes">
@@ -1697,7 +1697,7 @@ help@coverstar.world로 문의 주세요. </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vXe-ZZ-J5K">
-                                <rect key="frame" x="0.0" y="31" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <textAttributes key="titleTextAttributes">
@@ -1714,6 +1714,45 @@ help@coverstar.world로 문의 주세요. </string>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="epf-mO-gzL">
+                                <rect key="frame" x="0.0" y="94" width="390" height="716"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FoldingCell" rowHeight="667" id="mNu-in-c7n" customClass="FoldingCell" customModule="FoldingCell">
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="667"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mNu-in-c7n" id="GeF-La-m2N">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="667"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8gP-qz-7Wn" userLabel="Foreground" customClass="RotatedView" customModule="FoldingCell">
+                                                    <rect key="frame" x="20" y="7" width="350" height="165"/>
+                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="165" id="Inc-wj-H59"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="8gP-qz-7Wn" firstAttribute="top" secondItem="GeF-La-m2N" secondAttribute="top" constant="7" identifier="ForegroundViewTop" id="VJV-On-8nd"/>
+                                                <constraint firstItem="8gP-qz-7Wn" firstAttribute="leading" secondItem="GeF-La-m2N" secondAttribute="leading" constant="20" id="VfM-dG-AGf"/>
+                                                <constraint firstAttribute="trailing" secondItem="8gP-qz-7Wn" secondAttribute="trailing" constant="20" id="zlV-0Z-cgC"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.91372549020000005" green="0.85277035359999998" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backViewColor">
+                                                <color key="value" red="0.96862745100000003" green="0.93725490199999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="itemCount">
+                                                <integer key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FNz-jA-dcT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1724,7 +1763,7 @@ help@coverstar.world로 문의 주세요. </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R55-99-HM1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9806" y="-1703"/>
+            <point key="canvasLocation" x="9804.6153846153848" y="-1703.3175355450237"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="ivX-pP-76y">
@@ -1756,7 +1795,7 @@ help@coverstar.world로 문의 주세요. </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkH-dm-7sV">
-                                <rect key="frame" x="16" y="89" width="358" height="31"/>
+                                <rect key="frame" x="16" y="109" width="358" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.94901960780000005" green="0.58823529409999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -1771,43 +1810,35 @@ help@coverstar.world로 문의 주세요. </string>
                                     <action selector="btnFilter_click:" destination="wUZ-8i-fcd" eventType="touchUpInside" id="fcR-Na-RIt"/>
                                 </connections>
                             </button>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xjQ-a1-Efg">
-                                <rect key="frame" x="10" y="31" width="390" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" systemColor="systemBackgroundColor"/>
-                                <items>
-                                    <navigationItem title="참가신청" id="Oka-Wr-LHx" userLabel="Caption"/>
-                                </items>
-                            </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="노래제목(타이틀)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pF4-La-JU4">
-                                <rect key="frame" x="16" y="147" width="116" height="21"/>
+                                <rect key="frame" x="16" y="167" width="116" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="가수이름(서브타이틀)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uqr-qt-cUv">
-                                <rect key="frame" x="16" y="246" width="145" height="21"/>
+                                <rect key="frame" x="16" y="266" width="145" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yyg-6g-3AP">
-                                <rect key="frame" x="16" y="275" width="358" height="34"/>
+                                <rect key="frame" x="16" y="295" width="358" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="영상링크" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3UQ-C9-uEl">
-                                <rect key="frame" x="16" y="343" width="59" height="21"/>
+                                <rect key="frame" x="16" y="363" width="59" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KGz-kf-fcf">
-                                <rect key="frame" x="16" y="372" width="358" height="34"/>
+                                <rect key="frame" x="16" y="392" width="358" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1849,11 +1880,19 @@ help@coverstar.world로 문의 주세요. </string>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u7g-0G-Pcb">
-                                <rect key="frame" x="16" y="176" width="358" height="34"/>
+                                <rect key="frame" x="16" y="196" width="358" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xjQ-a1-Efg">
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" systemColor="systemBackgroundColor"/>
+                                <items>
+                                    <navigationItem title="참가신청" id="Oka-Wr-LHx" userLabel="Caption"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yX8-Ac-eRr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1881,7 +1920,7 @@ help@coverstar.world로 문의 주세요. </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" shadowImage="clear" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="CU8-4W-RrQ">
-                                <rect key="frame" x="0.0" y="31" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="51" width="390" height="44"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="6r3-hC-muW"/>
@@ -1902,20 +1941,20 @@ help@coverstar.world로 문의 주세요. </string>
                                 </items>
                             </navigationBar>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aal-EO-K1b">
-                                <rect key="frame" x="0.0" y="123" width="390" height="174"/>
+                                <rect key="frame" x="0.0" y="143" width="390" height="174"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JzO-h2-g5R">
                                         <rect key="frame" x="22" y="87" width="346" height="1"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Wallet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWQ-7z-ubr">
-                                        <rect key="frame" x="22" y="34" width="84" height="14"/>
+                                        <rect key="frame" x="22" y="34" width="84" height="12"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V91-2E-Vex">
-                                        <rect key="frame" x="251.33333333333334" y="23" width="116.66666666666666" height="36"/>
+                                        <rect key="frame" x="251.33333333333334" y="22" width="116.66666666666666" height="36"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="icoWallet" imagePlacement="leading" title="포인트 입금" imagePadding="5" titleAlignment="leading">
@@ -1951,20 +1990,20 @@ help@coverstar.world로 문의 주세요. </string>
                                     <constraint firstItem="JzO-h2-g5R" firstAttribute="leading" secondItem="YWQ-7z-ubr" secondAttribute="leading" id="LQ7-PS-Hh8"/>
                                     <constraint firstItem="YWQ-7z-ubr" firstAttribute="centerY" secondItem="V91-2E-Vex" secondAttribute="centerY" id="PHf-SB-dVt"/>
                                     <constraint firstItem="Bkx-no-ZtB" firstAttribute="top" secondItem="JzO-h2-g5R" secondAttribute="bottom" constant="37" id="VsK-mR-REm"/>
-                                    <constraint firstItem="JzO-h2-g5R" firstAttribute="top" secondItem="V91-2E-Vex" secondAttribute="bottom" constant="27" id="bzP-Qk-h1w"/>
+                                    <constraint firstItem="JzO-h2-g5R" firstAttribute="top" secondItem="V91-2E-Vex" secondAttribute="bottom" constant="28" id="bzP-Qk-h1w"/>
                                     <constraint firstItem="JzO-h2-g5R" firstAttribute="centerY" secondItem="aal-EO-K1b" secondAttribute="centerY" id="fnr-wo-pdo"/>
                                     <constraint firstItem="JzO-h2-g5R" firstAttribute="trailing" secondItem="V91-2E-Vex" secondAttribute="trailing" id="rJW-FT-oIP"/>
                                     <constraint firstItem="V91-2E-Vex" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="YWQ-7z-ubr" secondAttribute="trailing" constant="8" symbolic="YES" id="wec-2u-vzC"/>
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icoMyFace" translatesAutoresizingMaskIntoConstraints="NO" id="EKa-cQ-WPV">
-                                <rect key="frame" x="16" y="75" width="40" height="40"/>
+                                <rect key="frame" x="16" y="95" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="uch-ni-Ak5"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coverstar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oev-Kj-Atp">
-                                <rect key="frame" x="68" y="84.666666666666671" width="74" height="21"/>
+                                <rect key="frame" x="68" y="104.66666666666667" width="74" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1975,12 +2014,12 @@ help@coverstar.world로 문의 주세요. </string>
                         <constraints>
                             <constraint firstItem="aal-EO-K1b" firstAttribute="leading" secondItem="CU8-4W-RrQ" secondAttribute="leading" id="7Yw-fF-xHI"/>
                             <constraint firstItem="EKa-cQ-WPV" firstAttribute="centerY" secondItem="Oev-Kj-Atp" secondAttribute="centerY" id="C42-P3-Gwj"/>
-                            <constraint firstItem="CU8-4W-RrQ" firstAttribute="top" secondItem="7hy-Yz-ePf" secondAttribute="topMargin" constant="-13" id="NRT-j4-fRr"/>
+                            <constraint firstItem="CU8-4W-RrQ" firstAttribute="top" secondItem="7hy-Yz-ePf" secondAttribute="topMargin" constant="7" id="NRT-j4-fRr"/>
                             <constraint firstItem="qft-em-nel" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Oev-Kj-Atp" secondAttribute="trailing" symbolic="YES" id="S0U-DT-VSN"/>
                             <constraint firstItem="aal-EO-K1b" firstAttribute="leading" secondItem="qft-em-nel" secondAttribute="leading" id="Vrc-aW-7Bq"/>
                             <constraint firstItem="EKa-cQ-WPV" firstAttribute="leading" secondItem="7hy-Yz-ePf" secondAttribute="leadingMargin" id="fmZ-cj-HmY"/>
-                            <constraint firstItem="qft-em-nel" firstAttribute="bottom" secondItem="aal-EO-K1b" secondAttribute="bottom" constant="464" id="jRG-Ut-Kcu"/>
-                            <constraint firstItem="aal-EO-K1b" firstAttribute="top" secondItem="7hy-Yz-ePf" secondAttribute="top" constant="123" id="lSd-AX-JzY"/>
+                            <constraint firstItem="qft-em-nel" firstAttribute="bottom" secondItem="aal-EO-K1b" secondAttribute="bottom" constant="444" id="jRG-Ut-Kcu"/>
+                            <constraint firstItem="aal-EO-K1b" firstAttribute="top" secondItem="7hy-Yz-ePf" secondAttribute="top" constant="143" id="lSd-AX-JzY"/>
                             <constraint firstItem="aal-EO-K1b" firstAttribute="trailing" secondItem="CU8-4W-RrQ" secondAttribute="trailing" id="qE7-Ce-JYt"/>
                             <constraint firstItem="Oev-Kj-Atp" firstAttribute="leading" secondItem="EKa-cQ-WPV" secondAttribute="trailing" constant="12" id="qp0-sB-xWP"/>
                             <constraint firstItem="aal-EO-K1b" firstAttribute="centerX" secondItem="7hy-Yz-ePf" secondAttribute="centerX" id="roh-oh-MXn"/>
@@ -2231,7 +2270,7 @@ help@coverstar.world로 문의 주세요. </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="grb-db-Ruo">
-                                <rect key="frame" x="0.0" y="31" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
@@ -2248,7 +2287,7 @@ help@coverstar.world로 문의 주세요. </string>
                                 </items>
                             </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="0D9-BK-JRC">
-                                <rect key="frame" x="0.0" y="75" width="390" height="769"/>
+                                <rect key="frame" x="0.0" y="94" width="390" height="750"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                             </tableView>
                         </subviews>
@@ -2261,7 +2300,7 @@ help@coverstar.world로 문의 주세요. </string>
                             <constraint firstAttribute="bottomMargin" secondItem="0D9-BK-JRC" secondAttribute="bottom" constant="-34" id="XGJ-lS-8G5"/>
                             <constraint firstItem="0D9-BK-JRC" firstAttribute="top" secondItem="grb-db-Ruo" secondAttribute="bottom" id="dxC-u7-tno"/>
                             <constraint firstItem="grb-db-Ruo" firstAttribute="trailing" secondItem="0D9-BK-JRC" secondAttribute="trailing" id="mbU-Bb-e9Y"/>
-                            <constraint firstItem="grb-db-Ruo" firstAttribute="top" secondItem="KrT-xp-Bgn" secondAttribute="topMargin" constant="-13" id="opc-rz-Ph6"/>
+                            <constraint firstItem="grb-db-Ruo" firstAttribute="top" secondItem="KrT-xp-Bgn" secondAttribute="topMargin" constant="6" id="opc-rz-Ph6"/>
                         </constraints>
                     </view>
                     <connections>
@@ -2286,7 +2325,7 @@ help@coverstar.world로 문의 주세요. </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Irj-tj-z4v">
-                                <rect key="frame" x="0.0" y="32" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <items>
                                     <navigationItem title="개인정보" id="20z-Uf-LZv" userLabel="Caption">
@@ -2372,14 +2411,14 @@ help@coverstar.world로 문의 주세요. </string>
                             <constraint firstItem="Kto-EX-pyo" firstAttribute="centerX" secondItem="VX6-0L-DCk" secondAttribute="centerX" id="RAt-qi-h5m"/>
                             <constraint firstItem="VX6-0L-DCk" firstAttribute="top" secondItem="Kto-EX-pyo" secondAttribute="bottom" constant="37" id="RDZ-fu-wdL"/>
                             <constraint firstItem="oZ3-Tm-Srb" firstAttribute="top" secondItem="DML-SZ-OtE" secondAttribute="bottom" constant="36" id="SFI-AA-c6J"/>
-                            <constraint firstItem="Irj-tj-z4v" firstAttribute="top" secondItem="K2f-uf-nlG" secondAttribute="topMargin" constant="-12" id="UDv-qn-BOe"/>
+                            <constraint firstItem="Irj-tj-z4v" firstAttribute="top" secondItem="K2f-uf-nlG" secondAttribute="topMargin" constant="6" id="UDv-qn-BOe"/>
                             <constraint firstItem="mJT-Ny-fL5" firstAttribute="top" secondItem="DML-SZ-OtE" secondAttribute="bottom" constant="8" symbolic="YES" id="UfO-4t-aBf"/>
                             <constraint firstItem="k05-c1-NAk" firstAttribute="top" secondItem="K2f-uf-nlG" secondAttribute="top" constant="214" id="WFy-JF-YbH"/>
                             <constraint firstItem="DML-SZ-OtE" firstAttribute="leading" secondItem="b2i-Kz-6Pu" secondAttribute="leading" constant="29" id="YT2-ap-Hbt"/>
                             <constraint firstItem="Irj-tj-z4v" firstAttribute="trailing" secondItem="eeM-YY-eeJ" secondAttribute="trailing" id="i19-hL-C6u"/>
                             <constraint firstItem="DML-SZ-OtE" firstAttribute="leading" secondItem="oZ3-Tm-Srb" secondAttribute="leading" id="knh-rv-Ioh"/>
                             <constraint firstItem="Irj-tj-z4v" firstAttribute="centerX" secondItem="Kto-EX-pyo" secondAttribute="centerX" id="mty-13-Iyw"/>
-                            <constraint firstItem="Kto-EX-pyo" firstAttribute="top" secondItem="Irj-tj-z4v" secondAttribute="bottom" constant="49" id="n1n-Cx-0jP"/>
+                            <constraint firstItem="Kto-EX-pyo" firstAttribute="top" secondItem="Irj-tj-z4v" secondAttribute="bottom" constant="31" id="n1n-Cx-0jP"/>
                             <constraint firstItem="mJT-Ny-fL5" firstAttribute="leading" secondItem="oZ3-Tm-Srb" secondAttribute="trailing" constant="8" symbolic="YES" id="ovg-qG-uHC"/>
                             <constraint firstItem="Irj-tj-z4v" firstAttribute="leading" secondItem="K2f-uf-nlG" secondAttribute="leading" id="upw-mN-hrI"/>
                             <constraint firstItem="VX6-0L-DCk" firstAttribute="leading" secondItem="K2f-uf-nlG" secondAttribute="leadingMargin" constant="12" id="xfN-Ue-662"/>
@@ -2406,14 +2445,14 @@ help@coverstar.world로 문의 주세요. </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="기기의 알림 설정은 휴대폰 설정&gt;알림&gt;CoverStar에서 변경할 수 있습니다." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9g-yx-va5">
-                                <rect key="frame" x="36" y="100" width="318" height="119"/>
+                                <rect key="frame" x="36" y="120" width="318" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" systemColor="systemGrayColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iYt-H5-Ygo">
-                                <rect key="frame" x="0.0" y="31" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <items>
@@ -2438,9 +2477,9 @@ help@coverstar.world로 문의 주세요. </string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="DeD-4S-iXj"/>
-        <segue reference="6AS-Hn-bbX"/>
-        <segue reference="kD2-nE-vgn"/>
+        <segue reference="ZlP-Va-JSZ"/>
+        <segue reference="LLC-gw-9s3"/>
+        <segue reference="ABG-rg-37Q"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="DropDownIconDown" width="170.66667175292969" height="170.66667175292969"/>
