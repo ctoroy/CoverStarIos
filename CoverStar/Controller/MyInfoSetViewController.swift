@@ -76,13 +76,8 @@ class MyInfoSetViewCOntroller: BaseViewController {
     
     @IBAction func setImage(_ sender: Any) {
         self.showSelectImageActionSheet { (image) in
-//            self.savePng(image!)
-            self.imgProfile.layer.cornerRadius = self.imgProfile.frame.height/2
-            self.imgProfile.layer.borderWidth = 1
-            self.imgProfile.layer.borderColor = UIColor.clear.cgColor
-            // 뷰의 경계에 맞춰준다
-            self.imgProfile.clipsToBounds = true
-            self.imgProfile.image = image
+
+            self.imgProfile.image = image?.cropToCircle()
             let imageData = (self.imgProfile.image?.jpegData(compressionQuality: 0.8))!
             
             Alamofire.upload(multipartFormData: { multipartFormData in
