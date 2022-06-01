@@ -1607,7 +1607,7 @@ help@coverstar.world로 문의 주세요. </string>
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvj-Vd-Tjw">
-                                <rect key="frame" x="16" y="105" width="82" height="46"/>
+                                <rect key="frame" x="16" y="94" width="82" height="46"/>
                                 <color key="tintColor" red="0.94901960780000005" green="0.58823529409999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="polygon" imagePlacement="trailing" imagePadding="5">
@@ -1630,8 +1630,8 @@ help@coverstar.world로 문의 주세요. </string>
                             <constraint firstItem="JYo-9N-fxo" firstAttribute="leading" secondItem="mpi-uC-4PH" secondAttribute="leading" id="ClT-oE-EIW"/>
                             <constraint firstAttribute="trailing" secondItem="JYo-9N-fxo" secondAttribute="trailing" id="SMu-LF-IwT"/>
                             <constraint firstItem="JYo-9N-fxo" firstAttribute="top" secondItem="mpi-uC-4PH" secondAttribute="top" constant="50" id="WRm-A2-NDK"/>
-                            <constraint firstItem="Vvj-Vd-Tjw" firstAttribute="top" secondItem="JYo-9N-fxo" secondAttribute="bottom" constant="11" id="XDS-7d-wRC"/>
-                            <constraint firstItem="2td-vz-Kzb" firstAttribute="bottom" secondItem="Vvj-Vd-Tjw" secondAttribute="bottom" constant="610" id="mrA-PY-xVx"/>
+                            <constraint firstItem="Vvj-Vd-Tjw" firstAttribute="top" secondItem="JYo-9N-fxo" secondAttribute="bottom" id="XDS-7d-wRC"/>
+                            <constraint firstItem="2td-vz-Kzb" firstAttribute="bottom" secondItem="Vvj-Vd-Tjw" secondAttribute="bottom" constant="621" id="mrA-PY-xVx"/>
                             <constraint firstItem="2td-vz-Kzb" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Vvj-Vd-Tjw" secondAttribute="trailing" symbolic="YES" id="nF8-5c-XBd"/>
                             <constraint firstItem="Vvj-Vd-Tjw" firstAttribute="leading" secondItem="2td-vz-Kzb" secondAttribute="leading" constant="16" id="wNj-xy-8Ge"/>
                         </constraints>
@@ -1714,51 +1714,18 @@ help@coverstar.world로 문의 주세요. </string>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="epf-mO-gzL">
-                                <rect key="frame" x="0.0" y="94" width="390" height="716"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OlT-QO-hum" customClass="LoadMoreTableView" customModule="GigaLive" customModuleProvider="target">
+                                <rect key="frame" x="8" y="94" width="375" height="716"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FoldingCell" rowHeight="667" id="mNu-in-c7n" customClass="FoldingCell" customModule="FoldingCell">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="667"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mNu-in-c7n" id="GeF-La-m2N">
-                                            <rect key="frame" x="0.0" y="0.0" width="390" height="667"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8gP-qz-7Wn" userLabel="Foreground" customClass="RotatedView" customModule="FoldingCell">
-                                                    <rect key="frame" x="20" y="7" width="350" height="165"/>
-                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="165" id="Inc-wj-H59"/>
-                                                    </constraints>
-                                                </view>
-                                            </subviews>
-                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <constraints>
-                                                <constraint firstItem="8gP-qz-7Wn" firstAttribute="top" secondItem="GeF-La-m2N" secondAttribute="top" constant="7" identifier="ForegroundViewTop" id="VJV-On-8nd"/>
-                                                <constraint firstItem="8gP-qz-7Wn" firstAttribute="leading" secondItem="GeF-La-m2N" secondAttribute="leading" constant="20" id="VfM-dG-AGf"/>
-                                                <constraint firstAttribute="trailing" secondItem="8gP-qz-7Wn" secondAttribute="trailing" constant="20" id="zlV-0Z-cgC"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.91372549020000005" green="0.85277035359999998" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="backViewColor">
-                                                <color key="value" red="0.96862745100000003" green="0.93725490199999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="itemCount">
-                                                <integer key="value" value="4"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FNz-jA-dcT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
                         <outlet property="bBtnBack" destination="gHh-o5-m32" id="QJo-0J-xwK"/>
+                        <outlet property="tblNotice" destination="OlT-QO-hum" id="JsC-qv-kdn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R55-99-HM1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2478,8 +2445,8 @@ help@coverstar.world로 문의 주세요. </string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="ZlP-Va-JSZ"/>
-        <segue reference="LLC-gw-9s3"/>
-        <segue reference="ABG-rg-37Q"/>
+        <segue reference="6AS-Hn-bbX"/>
+        <segue reference="kD2-nE-vgn"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="DropDownIconDown" width="170.66667175292969" height="170.66667175292969"/>

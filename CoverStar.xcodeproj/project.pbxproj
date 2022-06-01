@@ -46,6 +46,12 @@
 		09AA550027F6B46100A4EB63 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA54FF27F6B46100A4EB63 /* IntroViewController.swift */; };
 		09AA552227F6BAD000A4EB63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA552127F6BAD000A4EB63 /* SceneDelegate.swift */; };
 		09AA552427F6BEB900A4EB63 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA552327F6BEB900A4EB63 /* LoginViewController.swift */; };
+		09B452D62847B61A002806F2 /* CastInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B452D52847B61A002806F2 /* CastInfo.swift */; };
+		09B452D82847B652002806F2 /* NoticeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B452D72847B652002806F2 /* NoticeInfo.swift */; };
+		09B452DA2847BC38002806F2 /* LoadMoreTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B452D92847BC38002806F2 /* LoadMoreTableView.swift */; };
+		09B452DE2847C3F9002806F2 /* NoticeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B452DD2847C3F9002806F2 /* NoticeCell.xib */; };
+		09B452E02847C42C002806F2 /* NoticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B452DF2847C42C002806F2 /* NoticeCell.swift */; };
+		09B452E22847CBA7002806F2 /* LoadMoreTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B452E12847CBA7002806F2 /* LoadMoreTableView.xib */; };
 		09B511142843B5E40070C66F /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B511132843B5E40070C66F /* UIImageView.swift */; };
 		09B511162843B7780070C66F /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B511152843B7780070C66F /* SettingViewController.swift */; };
 		09B511182843C4550070C66F /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B511172843C4540070C66F /* BaseTableViewController.swift */; };
@@ -86,11 +92,11 @@
 		09EF585D2820E87C0000457D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EF585C2820E87C0000457D /* MainView.swift */; };
 		09EF585F2821116D0000457D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EF585E2821116D0000457D /* Common.swift */; };
 		09F1587D27FBE65500FB8BD3 /* CountrySelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1587C27FBE65500FB8BD3 /* CountrySelectController.swift */; };
-		09F5C32E2845F18700E9FCDB /* foldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5C32D2845F18700E9FCDB /* foldingCell.swift */; };
-		E175F583C2D8A8C3F7615C4B /* Pods_CoverStar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1261F579FC94674F9D89CDAF /* Pods_CoverStar.framework */; };
+		38F3BF03B3F0351746429EDB /* Pods_CoverStar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 286BB314F68E82A9569637E1 /* Pods_CoverStar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07208DEA46E7767EEBC0EAA6 /* Pods-CoverStar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverStar.debug.xcconfig"; path = "Target Support Files/Pods-CoverStar/Pods-CoverStar.debug.xcconfig"; sourceTree = "<group>"; };
 		090D69FE27EC36A40001A4EE /* CoverStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		090D6A0127EC36A40001A4EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		090D6A0827EC36A40001A4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -133,6 +139,12 @@
 		09AA54FF27F6B46100A4EB63 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		09AA552127F6BAD000A4EB63 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		09AA552327F6BEB900A4EB63 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		09B452D52847B61A002806F2 /* CastInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastInfo.swift; sourceTree = "<group>"; };
+		09B452D72847B652002806F2 /* NoticeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeInfo.swift; sourceTree = "<group>"; };
+		09B452D92847BC38002806F2 /* LoadMoreTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMoreTableView.swift; sourceTree = "<group>"; };
+		09B452DD2847C3F9002806F2 /* NoticeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeCell.xib; sourceTree = "<group>"; };
+		09B452DF2847C42C002806F2 /* NoticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeCell.swift; sourceTree = "<group>"; };
+		09B452E12847CBA7002806F2 /* LoadMoreTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadMoreTableView.xib; sourceTree = "<group>"; };
 		09B511132843B5E40070C66F /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		09B511152843B7780070C66F /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		09B511172843C4540070C66F /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
@@ -173,10 +185,8 @@
 		09EF585C2820E87C0000457D /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		09EF585E2821116D0000457D /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		09F1587C27FBE65500FB8BD3 /* CountrySelectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectController.swift; sourceTree = "<group>"; };
-		09F5C32D2845F18700E9FCDB /* foldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foldingCell.swift; sourceTree = "<group>"; };
-		1261F579FC94674F9D89CDAF /* Pods_CoverStar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoverStar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		819A59B9195A9E4CAE18A646 /* Pods-CoverStar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverStar.release.xcconfig"; path = "Target Support Files/Pods-CoverStar/Pods-CoverStar.release.xcconfig"; sourceTree = "<group>"; };
-		A4D4884B2B57B162BD4A7128 /* Pods-CoverStar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverStar.debug.xcconfig"; path = "Target Support Files/Pods-CoverStar/Pods-CoverStar.debug.xcconfig"; sourceTree = "<group>"; };
+		286BB314F68E82A9569637E1 /* Pods_CoverStar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoverStar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57CDA0836412DAFF558FAB9 /* Pods-CoverStar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverStar.release.xcconfig"; path = "Target Support Files/Pods-CoverStar/Pods-CoverStar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,28 +194,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E175F583C2D8A8C3F7615C4B /* Pods_CoverStar.framework in Frameworks */,
+				38F3BF03B3F0351746429EDB /* Pods_CoverStar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		022A62183C1901955073FFC3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1261F579FC94674F9D89CDAF /* Pods_CoverStar.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		090D69F527EC36A40001A4EE = {
 			isa = PBXGroup;
 			children = (
 				090D6A0027EC36A40001A4EE /* CoverStar */,
 				090D69FF27EC36A40001A4EE /* Products */,
 				1E070749AD3193B2864B5505 /* Pods */,
-				022A62183C1901955073FFC3 /* Frameworks */,
+				5DE7B76B560332C2315E7CD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -283,6 +285,8 @@
 				09CFF20727FEB79400079508 /* LegalAgreeViewModel.swift */,
 				09CFF20D27FEB80400079508 /* Terms.swift */,
 				097C31BD27F2DEEF009BEA9B /* Example.swift */,
+				09B452D52847B61A002806F2 /* CastInfo.swift */,
+				09B452D72847B652002806F2 /* NoticeInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -357,7 +361,6 @@
 				0988D4F62837CB030016CDF3 /* ThreeBtnInputPopupView.xib */,
 				0988D4F72837CB030016CDF3 /* TitleAndPwInputPopupView.swift */,
 				0988D4F22837CB020016CDF3 /* TitleAndPwInputPopupView.xib */,
-				09F5C32D2845F18700E9FCDB /* foldingCell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -365,7 +368,11 @@
 		09E8F67927F6E6F30052F6A6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				09B452D92847BC38002806F2 /* LoadMoreTableView.swift */,
+				09B452E12847CBA7002806F2 /* LoadMoreTableView.xib */,
 				09E8F67A27F6E7010052F6A6 /* DropDownCell.xib */,
+				09B452DD2847C3F9002806F2 /* NoticeCell.xib */,
+				09B452DF2847C42C002806F2 /* NoticeCell.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -373,10 +380,18 @@
 		1E070749AD3193B2864B5505 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A4D4884B2B57B162BD4A7128 /* Pods-CoverStar.debug.xcconfig */,
-				819A59B9195A9E4CAE18A646 /* Pods-CoverStar.release.xcconfig */,
+				07208DEA46E7767EEBC0EAA6 /* Pods-CoverStar.debug.xcconfig */,
+				E57CDA0836412DAFF558FAB9 /* Pods-CoverStar.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5DE7B76B560332C2315E7CD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				286BB314F68E82A9569637E1 /* Pods_CoverStar.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,11 +401,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 090D6A1227EC36A60001A4EE /* Build configuration list for PBXNativeTarget "CoverStar" */;
 			buildPhases = (
-				09CCD6D1631D8BCDF542D85A /* [CP] Check Pods Manifest.lock */,
+				35191397AAEA1D0A025781D4 /* [CP] Check Pods Manifest.lock */,
 				090D69FA27EC36A40001A4EE /* Sources */,
 				090D69FB27EC36A40001A4EE /* Frameworks */,
 				090D69FC27EC36A40001A4EE /* Resources */,
-				9E30C73FECA6516C4A7208E9 /* [CP] Embed Pods Frameworks */,
+				62474F49CD65A7F75FC49A44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -443,7 +458,9 @@
 				090D6A0E27EC36A60001A4EE /* LaunchScreen.storyboard in Resources */,
 				0988D4FC2837CB030016CDF3 /* LongTextPoupView.xib in Resources */,
 				090D6A1627EC39190001A4EE /* GoogleService-Info.plist in Resources */,
+				09B452E22847CBA7002806F2 /* LoadMoreTableView.xib in Resources */,
 				0988D5062837CB030016CDF3 /* TitleAndPwInputPopupView.xib in Resources */,
+				09B452DE2847C3F9002806F2 /* NoticeCell.xib in Resources */,
 				0988D50A2837CB030016CDF3 /* ThreeBtnInputPopupView.xib in Resources */,
 				090D6A0B27EC36A60001A4EE /* Assets.xcassets in Resources */,
 				090D6A0927EC36A40001A4EE /* Main.storyboard in Resources */,
@@ -461,7 +478,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		09CCD6D1631D8BCDF542D85A /* [CP] Check Pods Manifest.lock */ = {
+		35191397AAEA1D0A025781D4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -483,7 +500,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9E30C73FECA6516C4A7208E9 /* [CP] Embed Pods Frameworks */ = {
+		62474F49CD65A7F75FC49A44 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -512,6 +529,7 @@
 				0988D4FA2837CB030016CDF3 /* AlertPopupView.swift in Sources */,
 				09E8F67827F6E6D30052F6A6 /* MyCell.swift in Sources */,
 				0988D5172837DF310016CDF3 /* UIColor+Extensions.swift in Sources */,
+				09B452E02847C42C002806F2 /* NoticeCell.swift in Sources */,
 				09AA552227F6BAD000A4EB63 /* SceneDelegate.swift in Sources */,
 				09E49E6D2844BAC00027163D /* UIImage.swift in Sources */,
 				09F1587D27FBE65500FB8BD3 /* CountrySelectController.swift in Sources */,
@@ -522,8 +540,8 @@
 				09D795AA280D0B4200C7C995 /* CreateWalletViewController.swift in Sources */,
 				09B511182843C4550070C66F /* BaseTableViewController.swift in Sources */,
 				09E49E6B2844A44E0027163D /* NotiSettingViewController.swift in Sources */,
-				09F5C32E2845F18700E9FCDB /* foldingCell.swift in Sources */,
 				09CFF20827FEB79400079508 /* LegalAgreeViewModel.swift in Sources */,
+				09B452D82847B652002806F2 /* NoticeInfo.swift in Sources */,
 				09D795A6280CFFBF00C7C995 /* MyInfoSetViewController.swift in Sources */,
 				09B6D2C828436F9E00149F96 /* JoinViewController.swift in Sources */,
 				09DCF72427FC26340003F8A9 /* AuthCompleteViewController.swift in Sources */,
@@ -546,6 +564,7 @@
 				09B6D2C4284368B800149F96 /* oldPlayViewController.swift in Sources */,
 				090D6A0227EC36A40001A4EE /* AppDelegate.swift in Sources */,
 				09B511142843B5E40070C66F /* UIImageView.swift in Sources */,
+				09B452DA2847BC38002806F2 /* LoadMoreTableView.swift in Sources */,
 				09B6D2C22843624700149F96 /* MainViewController.swift in Sources */,
 				09D795A8280D035A00C7C995 /* refferSetViewController.swift in Sources */,
 				09CFF20B27FEB7CE00079508 /* Reactive.swift in Sources */,
@@ -558,6 +577,7 @@
 				097C31C227F2E55F009BEA9B /* Static.swift in Sources */,
 				0988D5192837DF480016CDF3 /* RoundButton.swift in Sources */,
 				0988D5092837CB030016CDF3 /* MultiButtonPopupView.swift in Sources */,
+				09B452D62847B61A002806F2 /* CastInfo.swift in Sources */,
 				0988D5152837DEF10016CDF3 /* OneLineTextField.swift in Sources */,
 				09EAF779281132F50004017A /* UITextField.swift in Sources */,
 				0988D5132837D5AF0016CDF3 /* UserInfoManager.swift in Sources */,
@@ -714,7 +734,7 @@
 		};
 		090D6A1327EC36A60001A4EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4D4884B2B57B162BD4A7128 /* Pods-CoverStar.debug.xcconfig */;
+			baseConfigurationReference = 07208DEA46E7767EEBC0EAA6 /* Pods-CoverStar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -744,7 +764,7 @@
 		};
 		090D6A1427EC36A60001A4EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 819A59B9195A9E4CAE18A646 /* Pods-CoverStar.release.xcconfig */;
+			baseConfigurationReference = E57CDA0836412DAFF558FAB9 /* Pods-CoverStar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

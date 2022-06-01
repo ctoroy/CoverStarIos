@@ -25,6 +25,7 @@ target 'CoverStar' do
   pod 'Kingfisher', '~> 7.0'
   pod 'SwipeViewController'
   pod 'FoldingCell'
+  pod 'MJRefresh'
 
   # Pods for CoverStar
 

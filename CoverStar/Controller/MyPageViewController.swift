@@ -17,9 +17,7 @@ class MyPaegViewViewController: UIViewController {
     @IBOutlet weak var bBtnSetting: UIBarButtonItem!
     @IBOutlet weak var bBtnMessage: UIBarButtonItem!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
+    override func viewWillAppear(_ animated: Bool) {
         DispatchQueue.main.async {
             print("Static.userProfileImage=" + Static.userProfileImage)
             guard let url = URL(string: Static.userProfileImage) else { return }
@@ -45,6 +43,10 @@ class MyPaegViewViewController: UIViewController {
             
             self.lblMyName.text = Static.userName
         }
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
         bBtnSetting.action = #selector(settingButtonPressed(sender:))
     }

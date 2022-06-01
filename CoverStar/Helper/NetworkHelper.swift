@@ -14,6 +14,34 @@ class NetworkHelper: NSObject {
     
     static let manager = NetworkHelper()
     
+    //MARK: 16. 공지사항 리스트
+    ///16. 공지사항 리스트
+    
+    func loadNoticeList( complete: @escaping (_ succeed : Bool, _ noticeList: [NoticeInfo], _ resultInfo: JSON) -> Void) {
+        let params : [String : String] = [:]
+        
+        let url = Static.apiUrl + "getNoticeList"
+        
+        let completionHandler = {
+            (_ succeed : Bool, _ json : JSON, _ resultInfo : JSON) -> Void in
+            
+            var noticeList : [NoticeInfo] = []
+            
+            if succeed  {
+
+                for info in resultInfo["data"].arrayValue {
+
+                    let notice = NoticeInfo()
+                            
+                    notice.setInfo(json: info)
+                    noticeList.append(notice)
+                }
+            }
+            complete(succeed,noticeList, resultInfo)
+        }
+        self.post(url: url, params: params, complete: completionHandler)
+    }
+    
     //MARK: 17. 유저정보 수정
     ///17. 유저정보 수정
     
