@@ -61,7 +61,6 @@ class NoticeViewController: UIViewController {
         //Num of row
             tblNotice.numberOfRowsInSection = {
             section in
-            
             print("self.tableView.dataSource[section].count  : \(self.tblNotice.dataSource[section].count)")
             
             return self.tblNotice.dataSource[section].count
@@ -70,64 +69,29 @@ class NoticeViewController: UIViewController {
         //Cell
             tblNotice.cellForIndex = {
             tableView, indexPath in
-            
-            if indexPath.section == 0 {
-                
-                if(indexPath.count > 0){
-                    if let cell = tableView.dequeueReusableCell(withIdentifier: "NoticeCell") as? NoticeCell {
-                        let notice = self.noticeList[indexPath.row]
-                        cell.notice = notice
-                        
-                        return cell
+                            
+                if indexPath.section == 0 {
+                    
+                    if(indexPath.count > 0){
+                        if let cell = tableView.dequeueReusableCell(withIdentifier: "NoticeCell") as? NoticeCell {
+                            let notice = self.noticeList[indexPath.row]
+                            cell.notice = notice
+                            
+                            return cell
+                        }
                     }
                 }
-            }
             
             return UITableViewCell()
-        }
+            }
         
         //Select
-            tblNotice.onSelect = {
+       tblNotice.onSelect = {
             indexPath in
-            
-//            if !UserInfoManager.manager.isLogined {
-//                let alert = UIAlertController(title: "", message: "로그인 후 이용가능합니다. \n로그인 하시겠습니까?", preferredStyle: .alert)
-//
-//                alert.addAction(UIAlertAction(title: "취소", style: .default, handler: { (_) in
-//
-//                }))
-//
-//                alert.addAction(UIAlertAction(title: "확인", style: .default, handler: { (_) in
-//                    self.showLoginVC(complete: {
-//                        succeed in
-//                        if succeed {
-//                            return
-//                        }
-//
-//                    })
-//                }))
-//
-//                self.present(alert, animated: true, completion: nil)
-                
-//            }else{
-//
-//                if let cast = self.tableView.dataSource[indexPath.section][indexPath.row] as? CastInfo {
-//                    if cast.castType == 0 {
-//                        let watchVC = self.viewController(identifier: "WatchCastViewController") as! WatchCastViewController
-//
-//                        watchVC.cast = cast
-//
-//                        self.navigationController?.pushViewController(watchVC, animated: true)
-//                    }else {
-//                        let watchVC = self.viewController(identifier: "WatchVODViewController") as! WatchVODViewController
-//
-//                        watchVC.cast = cast
-//
-//                        self.navigationController?.pushViewController(watchVC, animated: true)
-//                    }
-//                }
+           
             }
         }
+        
         
         @objc func backButtonPressed(sender: UIBarButtonItem) {
             self.presentingViewController?.dismiss(animated: true, completion:nil)
@@ -139,6 +103,4 @@ class NoticeViewController: UIViewController {
         
         tblNotice.reload()
     }
-
-
 }

@@ -20,6 +20,11 @@ class NoticeInfo: NSObject {
     var view_count : Int = 0
     var like_count : Int =  0
     var thumbnail : String = ""
+    var open : Bool = false
+    
+    open func setClose(bool:Bool){
+        open = bool
+    }
 
     open func setInfo(json : JSON) {
         
