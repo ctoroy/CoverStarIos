@@ -14,6 +14,34 @@ class NetworkHelper: NSObject {
     
     static let manager = NetworkHelper()
     
+    //MARK: 15. 경연 리스트
+    ///15. 경연 리스트
+    
+    func loadContestList( complete: @escaping (_ succeed : Bool, _ contestList: [ContestInfo], _ resultInfo: JSON) -> Void) {
+        let params : [String : String] = [:]
+        
+        let url = Static.apiUrl + "getContestList"
+        
+        let completionHandler = {
+            (_ succeed : Bool, _ json : JSON, _ resultInfo : JSON) -> Void in
+            
+            var contestList : [ContestInfo] = []
+            
+            if succeed  {
+
+                for info in resultInfo["data"].arrayValue {
+
+                    let contest = ContestInfo()
+                            
+                    contest.setInfo(json: info)
+                    contestList.append(contest)
+                }
+            }
+            complete(succeed,contestList, resultInfo)
+        }
+        self.post(url: url, params: params, complete: completionHandler)
+    }
+    
     //MARK: 16. 공지사항 리스트
     ///16. 공지사항 리스트
     

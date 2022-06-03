@@ -79,6 +79,7 @@
 		09DCF72427FC26340003F8A9 /* AuthCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DCF72327FC26340003F8A9 /* AuthCompleteViewController.swift */; };
 		09DCF72627FC326E0003F8A9 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DCF72527FC326E0003F8A9 /* MainController.swift */; };
 		09DFC1C2281F9AB4009144A0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DFC1C1281F9AB4009144A0 /* String.swift */; };
+		09DFFA8A2849F432006B31D5 /* ContestInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DFFA892849F432006B31D5 /* ContestInfo.swift */; };
 		09E3BA5228092ED7009B56F8 /* PasswdAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E3BA5128092ED7009B56F8 /* PasswdAuthViewController.swift */; };
 		09E49E69284494760027163D /* myInfoChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49E68284494760027163D /* myInfoChangeViewController.swift */; };
 		09E49E6B2844A44E0027163D /* NotiSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49E6A2844A44E0027163D /* NotiSettingViewController.swift */; };
@@ -173,6 +174,7 @@
 		09DCF72327FC26340003F8A9 /* AuthCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCompleteViewController.swift; sourceTree = "<group>"; };
 		09DCF72527FC326E0003F8A9 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		09DFC1C1281F9AB4009144A0 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		09DFFA892849F432006B31D5 /* ContestInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestInfo.swift; sourceTree = "<group>"; };
 		09E3BA5128092ED7009B56F8 /* PasswdAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswdAuthViewController.swift; sourceTree = "<group>"; };
 		09E49E68284494760027163D /* myInfoChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myInfoChangeViewController.swift; sourceTree = "<group>"; };
 		09E49E6A2844A44E0027163D /* NotiSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiSettingViewController.swift; sourceTree = "<group>"; };
@@ -290,6 +292,7 @@
 				097C31BD27F2DEEF009BEA9B /* Example.swift */,
 				09B452D52847B61A002806F2 /* CastInfo.swift */,
 				09B452D72847B652002806F2 /* NoticeInfo.swift */,
+				09DFFA892849F432006B31D5 /* ContestInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -544,6 +547,7 @@
 				09D795AA280D0B4200C7C995 /* CreateWalletViewController.swift in Sources */,
 				09B511182843C4550070C66F /* BaseTableViewController.swift in Sources */,
 				09E49E6B2844A44E0027163D /* NotiSettingViewController.swift in Sources */,
+				09DFFA8A2849F432006B31D5 /* ContestInfo.swift in Sources */,
 				09CFF20827FEB79400079508 /* LegalAgreeViewModel.swift in Sources */,
 				09B452D82847B652002806F2 /* NoticeInfo.swift in Sources */,
 				09D795A6280CFFBF00C7C995 /* MyInfoSetViewController.swift in Sources */,

@@ -41,14 +41,14 @@ class NoticeViewController: UIViewController {
                 
                 httpTool.loadNoticeList() { (succeed, noticeList, resultInfo) in
                         
-                        popupManager.hideLoadingView()
-                        if succeed {
-                                self.noticeList.append(contentsOf: noticeList)
-                                self.tblNotice.dataSource = [self.noticeList]
-                        }
-                        
-                        completed()
+                    popupManager.hideLoadingView()
+                    if succeed {
+                            self.noticeList.append(contentsOf: noticeList)
+                            self.tblNotice.dataSource = [self.noticeList]
                     }
+                    
+                    completed()
+                }
                 
             }
         
