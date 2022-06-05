@@ -22,4 +22,5 @@ class Static: NSObject {
     static var countryNo: String = ""
     static var userPhoneNumber: String = ""
     static var recommendCode: String = ""
+    static var curCoin: Int = 0
 }

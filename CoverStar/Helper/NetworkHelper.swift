@@ -14,6 +14,96 @@ class NetworkHelper: NSObject {
     
     static let manager = NetworkHelper()
     
+    //MARK: 13. 마이 포인트 조회
+    ///13. 마이 포인트 조회
+    
+    func getCurCoin(userID : String , complete : @escaping (_ succeed : Bool, _ resultInfo : JSON) -> Void)
+    {
+        
+        var params = self.defaultParams()
+        
+        params["userId"]           = userID
+        
+        let url = Static.apiUrl + "getCurCoin"
+        
+        let completionHandler = {
+            (_ succeed : Bool, _ json : JSON, _ resultInfo : JSON) -> Void in
+            
+            if succeed {
+                Static.curCoin = json["curCoin"].intValue
+            }
+            
+            complete(succeed, resultInfo)
+            
+        }
+        
+        self.post(url: url, params: params, complete: completionHandler)
+        
+    }
+    
+    //MARK: 14. 경연 참가
+    ///14. 경연 참가
+    
+    func joinContest(castCode : String,
+                     castTitle : String,
+                     category : String,
+                     castPath : String,
+                     profileImage : String,
+                     castType : String,
+                     castStartDate : String,
+                     castEndDate : String,
+                     logoImage : String,
+                     sortBig : String,
+                     sortMid : String,
+                     sortSmall : String,
+                     location : String,
+                     store : String,
+                     product : String,
+              complete : @escaping (_ succeed : Bool, _ resultInfo : JSON) -> Void)
+    {
+        
+        var params = self.defaultParams()
+        
+        params["castCode"]        = castCode
+        params["castId"]          = Static.userId
+        params["watchCnt"]        = "0"
+        params["castTitle"]       = castTitle
+        params["category"]        = category
+        params["castPath"]        = castPath
+        params["nickName"]        = Static.userName
+        params["profileImage"]    = profileImage
+        params["castType"]        = castType
+        params["castStartDate"]   = castStartDate
+        params["castEndDate"]     = castEndDate
+        params["episode"]         = "0"
+        params["logoImage"]       = logoImage
+        params["sortBig"]         = sortBig
+        params["sortMid"]         = sortMid
+        params["sortSmall"]       = sortSmall
+        params["location"]        = location
+        params["store"]           = store
+        params["product"]         = product
+        params["likes"]           = "0"
+        params["accumWatchCnt"]   = Static.userProfileImage
+        
+        
+        let url = Static.apiUrl + "startBroadCast"
+        
+        let completionHandler = {
+            (_ succeed : Bool, _ json : JSON, _ resultInfo : JSON) -> Void in
+            
+            if succeed {
+            }
+            
+            complete(succeed, resultInfo)
+            
+        }
+        
+        self.post(url: url, params: params, complete: completionHandler)
+        
+    }
+
+    
     //MARK: 15. 경연 리스트
     ///15. 경연 리스트
     
@@ -101,20 +191,7 @@ class NetworkHelper: NSObject {
     
     //MARK: 18. 회원가입
     ///18. 회원가입
-    ///
-    ///@RequestParam("userId") final String userId,
-//    @RequestParam("nickName") String nickName,
-//    @RequestParam("userPwd") String userPwd,
-//    @RequestParam("userProfileImage") String userProfileImage,
-//    @RequestParam("pushId") String pushId,
-//    @RequestParam("device") String device,//android:1 ios:2
-//    @RequestParam("userDialCode") String userDialCode,//82
-//    @RequestParam("userNation") String userNation //KR,
-//    @RequestParam("curCoin") String curCoin //가입시 추천해서 성공한 사람은 3으로 보냄 아니면 0으로 보냄,
-//    @RequestParam("recommendKey") String recommendKey
-//    @RequestParam("coinPwd") String coinPwd //coinPwd
 
-    
     func join(userId : String,
               nickName : String,
               userPwd : String,
@@ -288,35 +365,6 @@ extension NetworkHelper {
         return json
         
     }
-    
-    
-//    //MARK: - Encoding
-//    func getEncodedData(param : [String : String]) -> Data {
-//        let imsiPara = "data=" + self.base64Encode(self.convertDicToString(param as Dictionary<String, AnyObject>?))
-//
-//        return imsiPara.data(using: String.Encoding.utf8)!
-//    }
-    
-//    func base64Encode(_ inutStr: String!) -> String!
-//    {
-//        var plainData = (inutStr as NSString).data(using: String.Encoding.utf8.rawValue)
-//        var base64String = plainData!.base64EncodedString(options: NSData.Base64EncodingOptions(rawValue: 0))
-//        let reversed = String(base64String.characters.reversed())
-//        plainData = (reversed as NSString).data(using: String.Encoding.utf8.rawValue)
-//        base64String = plainData!.base64EncodedString(options: NSData.Base64EncodingOptions(rawValue: 0))
-//        print(base64String)
-//        return base64String
-//    }
-//
-//    func base64Decode(_ inutStr: String!) -> String!
-//    {
-//        var decodedData = Data(base64Encoded: inutStr, options:NSData.Base64DecodingOptions(rawValue: 0))
-//        var decodedString = NSString(data: decodedData!, encoding: String.Encoding.utf8.rawValue) as! String
-//        let reversed = String(decodedString.characters.reversed())
-//        decodedData = Data(base64Encoded: reversed, options:NSData.Base64DecodingOptions(rawValue: 0))
-//        decodedString = NSString(data: decodedData!, encoding: String.Encoding.utf8.rawValue) as! String
-//        return decodedString
-//    }
     
     func convertDicToString(_ inputDic: Dictionary<String, AnyObject>!) -> String!
     {

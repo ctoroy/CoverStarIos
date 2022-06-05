@@ -43,12 +43,33 @@ class MyPaegViewViewController: UIViewController {
             
             self.lblMyName.text = Static.userName
         }
+        
+        popupManager.showLoadingView()
+        
+        httpTool.getCurCoin(userID: Static.userId) { (succeed, resultInfo) in
+        
+            popupManager.hideLoadingView()
+        
+            if succeed {
+                dispatchMain.async {
+                    print("my coin =\(Static.curCoin)")
+                    let numberFormatter = NumberFormatter()
+                    numberFormatter.numberStyle = .decimal
+
+                    let result = numberFormatter.string(from: NSNumber(value: Static.curCoin))!
+                    self.lblStar.text = "\(result)"
+                }
+            }
+        }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         bBtnSetting.action = #selector(settingButtonPressed(sender:))
+    }
+    @IBAction func btnCharge_click(_ sender: Any) {
+        
+        self.performSegue(withIdentifier: "myToPoint", sender: nil)
     }
     
     @objc func settingButtonPressed(sender: UIBarButtonItem) {

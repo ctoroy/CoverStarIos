@@ -72,7 +72,7 @@ class oldPlayViewController: UIViewController {
         }
     
     @objc func homeButtonPressed(sender: UIBarButtonItem) {
-        self.presentingViewController?.dismiss(animated: true, completion:nil)
+//        self.presentingViewController?.dismiss(animated: true, completion:nil)
     }
     
     @objc func noticeButtonPressed(sender: UIBarButtonItem) {
