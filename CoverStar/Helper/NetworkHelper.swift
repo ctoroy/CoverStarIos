@@ -14,6 +14,92 @@ class NetworkHelper: NSObject {
     
     static let manager = NetworkHelper()
     
+    //MARK: 10. 컨테스트 아이디 캐스트 리스트
+    ///10. 컨테스트 아이디 캐스트 리스트
+    
+    func getLastList(contestId:String,sort:String, complete: @escaping (_ succeed : Bool, _ castList: [CastInfo], _ resultInfo: JSON) -> Void) {
+        var params = self.defaultParams()
+        params["contestId"]           = contestId
+        params["sort"]           = sort
+        
+        let url = Static.apiUrl + "getLastList"
+        
+        let completionHandler = {
+            (_ succeed : Bool, _ json : JSON, _ resultInfo : JSON) -> Void in
+            
+            var castList : [CastInfo] = []
+            
+            if succeed  {
+
+                for info in resultInfo["data"].arrayValue {
+
+                    let cast = CastInfo()
+                            
+                    cast.setInfo(json: info)
+                    castList.append(cast)
+                }
+            }
+            complete(succeed,castList, resultInfo)
+        }
+        self.post(url: url, params: params, complete: completionHandler)
+    }
+    
+    //MARK: 11. 지난 경연 리스트
+    ///11. 지난 경연 리스트
+    
+    func loadContestLastList( complete: @escaping (_ succeed : Bool, _ contestList: [ContestInfo], _ resultInfo: JSON) -> Void) {
+        let params : [String : String] = [:]
+        
+        let url = Static.apiUrl + "getContestLastList"
+        
+        let completionHandler = {
+            (_ succeed : Bool, _ json : JSON, _ resultInfo : JSON) -> Void in
+            
+            var contestList : [ContestInfo] = []
+            
+            if succeed  {
+
+                for info in resultInfo["data"].arrayValue {
+
+                    let contest = ContestInfo()
+                            
+                    contest.setInfo(json: info)
+                    contestList.append(contest)
+                }
+            }
+            complete(succeed,contestList, resultInfo)
+        }
+        self.post(url: url, params: params, complete: completionHandler)
+    }
+    
+    //MARK: 12. 캐스트 리스트
+    ///12. 캐스트 리스트
+    
+    func getList( complete: @escaping (_ succeed : Bool, _ castList: [CastInfo], _ resultInfo: JSON) -> Void) {
+        let params : [String : String] = [:]
+        
+        let url = Static.apiUrl + "getList"
+        
+        let completionHandler = {
+            (_ succeed : Bool, _ json : JSON, _ resultInfo : JSON) -> Void in
+            
+            var castList : [CastInfo] = []
+            
+            if succeed  {
+
+                for info in resultInfo["data"].arrayValue {
+
+                    let cast = CastInfo()
+                            
+                    cast.setInfo(json: info)
+                    castList.append(cast)
+                }
+            }
+            complete(succeed,castList, resultInfo)
+        }
+        self.post(url: url, params: params, complete: completionHandler)
+    }
+    
     //MARK: 13. 마이 포인트 조회
     ///13. 마이 포인트 조회
     

@@ -15,7 +15,7 @@ class HomeViewController: UIViewController {
     
     func showAlertController(style: UIAlertController.Style) {
             let alertController: UIAlertController
-            alertController = UIAlertController(title: "조회 방법", message: "", preferredStyle: style)
+            alertController = UIAlertController(title: "정렬 방법", message: "", preferredStyle: style)
 
             let okAction: UIAlertAction
 

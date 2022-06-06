@@ -84,6 +84,7 @@
 		09DCF72627FC326E0003F8A9 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DCF72527FC326E0003F8A9 /* MainController.swift */; };
 		09DFC1C2281F9AB4009144A0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DFC1C1281F9AB4009144A0 /* String.swift */; };
 		09DFFA8A2849F432006B31D5 /* ContestInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DFFA892849F432006B31D5 /* ContestInfo.swift */; };
+		09E1581E284E46C800591F7B /* contestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E1581D284E46C800591F7B /* contestDetailViewController.swift */; };
 		09E3BA5228092ED7009B56F8 /* PasswdAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E3BA5128092ED7009B56F8 /* PasswdAuthViewController.swift */; };
 		09E49E69284494760027163D /* myInfoChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49E68284494760027163D /* myInfoChangeViewController.swift */; };
 		09E49E6B2844A44E0027163D /* NotiSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E49E6A2844A44E0027163D /* NotiSettingViewController.swift */; };
@@ -97,6 +98,8 @@
 		09EF585B2820E85E0000457D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EF585A2820E85E0000457D /* ContentView.swift */; };
 		09EF585D2820E87C0000457D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EF585C2820E87C0000457D /* MainView.swift */; };
 		09EF585F2821116D0000457D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EF585E2821116D0000457D /* Common.swift */; };
+		09F1499E284D0F0E00295579 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1499D284D0F0E00295579 /* MainViewCell.swift */; };
+		09F149A0284D0F2100295579 /* MainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F1499F284D0F2100295579 /* MainViewCell.xib */; };
 		09F1587D27FBE65500FB8BD3 /* CountrySelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1587C27FBE65500FB8BD3 /* CountrySelectController.swift */; };
 		C90A73C6A17C42837536600E /* Pods_CoverStar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3AB55D7703DE143BF83E63 /* Pods_CoverStar.framework */; };
 /* End PBXBuildFile section */
@@ -182,6 +185,7 @@
 		09DCF72527FC326E0003F8A9 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		09DFC1C1281F9AB4009144A0 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		09DFFA892849F432006B31D5 /* ContestInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestInfo.swift; sourceTree = "<group>"; };
+		09E1581D284E46C800591F7B /* contestDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contestDetailViewController.swift; sourceTree = "<group>"; };
 		09E3BA5128092ED7009B56F8 /* PasswdAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswdAuthViewController.swift; sourceTree = "<group>"; };
 		09E49E68284494760027163D /* myInfoChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myInfoChangeViewController.swift; sourceTree = "<group>"; };
 		09E49E6A2844A44E0027163D /* NotiSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiSettingViewController.swift; sourceTree = "<group>"; };
@@ -195,6 +199,8 @@
 		09EF585A2820E85E0000457D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09EF585C2820E87C0000457D /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		09EF585E2821116D0000457D /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		09F1499D284D0F0E00295579 /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		09F1499F284D0F2100295579 /* MainViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewCell.xib; sourceTree = "<group>"; };
 		09F1587C27FBE65500FB8BD3 /* CountrySelectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectController.swift; sourceTree = "<group>"; };
 		1F3AB55D7703DE143BF83E63 /* Pods_CoverStar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoverStar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A01425FF884A33B5D48D5E /* Pods-CoverStar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverStar.debug.xcconfig"; path = "Target Support Files/Pods-CoverStar/Pods-CoverStar.debug.xcconfig"; sourceTree = "<group>"; };
@@ -318,6 +324,8 @@
 				09B5111F2843D4D00070C66F /* SettingViewCell.xib */,
 				09B605FE284C8AC20058E715 /* ChargeViewCell.swift */,
 				09B60600284C8AE10058E715 /* ChargeViewCell.xib */,
+				09F1499D284D0F0E00295579 /* MainViewCell.swift */,
+				09F1499F284D0F2100295579 /* MainViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -350,6 +358,7 @@
 				09E49E68284494760027163D /* myInfoChangeViewController.swift */,
 				09E49E6A2844A44E0027163D /* NotiSettingViewController.swift */,
 				09B605FC284C84A00058E715 /* pointChargeViewController.swift */,
+				09E1581D284E46C800591F7B /* contestDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -487,6 +496,7 @@
 				0988D5012837CB030016CDF3 /* AlertPopupView.xib in Resources */,
 				0988D5022837CB030016CDF3 /* PWInputPopupView.xib in Resources */,
 				09CFF21227FEC63100079508 /* TermsCell.xib in Resources */,
+				09F149A0284D0F2100295579 /* MainViewCell.xib in Resources */,
 				09E8F67627F6E3F10052F6A6 /* MyCell.xib in Resources */,
 				09B511202843D4D00070C66F /* SettingViewCell.xib in Resources */,
 				0988D4FB2837CB030016CDF3 /* MultiButtonPopupView.xib in Resources */,
@@ -589,6 +599,7 @@
 				09B511142843B5E40070C66F /* UIImageView.swift in Sources */,
 				09B452DA2847BC38002806F2 /* LoadMoreTableView.swift in Sources */,
 				09B6D2C22843624700149F96 /* MainViewController.swift in Sources */,
+				09E1581E284E46C800591F7B /* contestDetailViewController.swift in Sources */,
 				09D795A8280D035A00C7C995 /* refferSetViewController.swift in Sources */,
 				09CFF20B27FEB7CE00079508 /* Reactive.swift in Sources */,
 				0988D4F92837CB030016CDF3 /* BlurView.swift in Sources */,
@@ -606,6 +617,7 @@
 				09EAF779281132F50004017A /* UITextField.swift in Sources */,
 				0988D5132837D5AF0016CDF3 /* UserInfoManager.swift in Sources */,
 				0988D4F82837CB030016CDF3 /* PopupView.swift in Sources */,
+				09F1499E284D0F0E00295579 /* MainViewCell.swift in Sources */,
 				09EF3D4E280E5C8C0006A6C8 /* CompleteRegistViewController.swift in Sources */,
 				0988D5072837CB030016CDF3 /* ChkAlertPopupView.swift in Sources */,
 				09EF585B2820E85E0000457D /* ContentView.swift in Sources */,

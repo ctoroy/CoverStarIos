@@ -14,6 +14,7 @@ class JoinViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var btnJoin: UIButton!
     @IBOutlet weak var txtMySay: UITextView!
     @IBOutlet weak var txtVodLink: UITextField!
+    @IBOutlet weak var bbtnMyPoint: UIBarButtonItem!
     @IBOutlet weak var txtSubTitle: UITextField!
     
     var contestList : [ContestInfo] = []
@@ -60,6 +61,11 @@ class JoinViewController: UIViewController, UITextFieldDelegate {
         
             if succeed {
                 print("my coin =\(Static.curCoin)")
+                let numberFormatter = NumberFormatter()
+                numberFormatter.numberStyle = .decimal
+                let result = numberFormatter.string(from: NSNumber(value: Static.curCoin))!
+                self.bbtnMyPoint.tintColor = UIColor(named: "anychat_pink")
+                self.bbtnMyPoint.title = "\(result)P"
             }
         }
     }
@@ -124,7 +130,7 @@ class JoinViewController: UIViewController, UITextFieldDelegate {
                     alertController.addAction(cancelAction)
                     self.present(alertController, animated: true, completion: { print("Alert controller shown") })
                 }
-        }
+            }
         }
     
     @IBAction func btnFilter_click(_ sender: Any) {
