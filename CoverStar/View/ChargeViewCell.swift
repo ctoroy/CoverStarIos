@@ -59,11 +59,11 @@ class ChargeViewCell: UITableViewCell {
 
         switch num {
         case 0:
-            lblTitle.text = "3,000P(3,900원)"
+            lblTitle.text = "3,000STAR(3,900원)"
         case 1:
-            lblTitle.text = "9,000P(8,900원)"
+            lblTitle.text = "9,000STAR(8,900원)"
         case 2:
-            lblTitle.text = "15,000P(14,000원)"
+            lblTitle.text = "15,000STAR(14,000원)"
         default:
             lblTitle.text = ""
         }

@@ -2194,7 +2194,7 @@ help@coverstar.world로 문의 주세요. </string>
                                 <color key="barTintColor" systemColor="systemBackgroundColor"/>
                                 <items>
                                     <navigationItem title="참가신청" id="Oka-Wr-LHx" userLabel="Caption">
-                                        <barButtonItem key="rightBarButtonItem" title="10,000P" id="W3M-S3-cDr"/>
+                                        <barButtonItem key="rightBarButtonItem" title="10,000STAR" id="W3M-S3-cDr"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -2300,18 +2300,18 @@ help@coverstar.world로 문의 주세요. </string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V91-2E-Vex">
-                                        <rect key="frame" x="250.66666666666663" y="19.999999999999996" width="117" height="41.666666666666657"/>
+                                        <rect key="frame" x="239" y="19.999999999999996" width="128.66666666666663" height="41.666666666666657"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="icoWallet" imagePlacement="leading" title="포인트 충전" imagePadding="5" titleAlignment="leading">
+                                        <buttonConfiguration key="configuration" style="plain" image="icoWallet" imagePlacement="leading" title="스타체인 충전" imagePadding="5" titleAlignment="leading">
                                             <color key="baseForegroundColor" name="anychat_pink"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="btnCharge_click:" destination="10U-n4-yMF" eventType="touchUpInside" id="yCw-Oi-cR2"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="P" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bkx-no-ZtB">
-                                        <rect key="frame" x="365" y="104" width="11" height="22"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="STAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bkx-no-ZtB">
+                                        <rect key="frame" x="314" y="97" width="68" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="6Mc-Tl-8gM"/>
                                         </constraints>
@@ -2319,8 +2319,8 @@ help@coverstar.world로 문의 주세요. </string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="12,000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpT-2r-l8E">
-                                        <rect key="frame" x="243" y="87" width="114" height="41"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="12,000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpT-2r-l8E">
+                                        <rect key="frame" x="192" y="88" width="114" height="41"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="41" id="p66-CQ-dfz"/>
                                         </constraints>
@@ -2860,20 +2860,20 @@ help@coverstar.world로 문의 주세요. </string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XrV-2M-0ga">
                                 <rect key="frame" x="0.0" y="94" width="390" height="99"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="보유 포인트" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBi-vO-7PM">
-                                        <rect key="frame" x="19" y="35" width="114" height="30"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="보유 스타체인" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBi-vO-7PM">
+                                        <rect key="frame" x="19" y="34" width="135.33333333333334" height="30"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17,000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAV-XV-XVu">
-                                        <rect key="frame" x="245.66666666666666" y="34" width="80.333333333333343" height="31"/>
+                                        <rect key="frame" x="221.66666666666666" y="34" width="80.333333333333343" height="30"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cV2-cs-fBc">
-                                        <rect key="frame" x="334" y="35" width="16" height="30"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cV2-cs-fBc">
+                                        <rect key="frame" x="310" y="35" width="80" height="29"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -2881,14 +2881,14 @@ help@coverstar.world로 문의 주세요. </string>
                                 </subviews>
                                 <color key="backgroundColor" name="anychat_pink"/>
                                 <constraints>
-                                    <constraint firstItem="tAV-XV-XVu" firstAttribute="baseline" secondItem="cV2-cs-fBc" secondAttribute="baseline" id="Sfo-g8-moR"/>
-                                    <constraint firstItem="tAV-XV-XVu" firstAttribute="centerY" secondItem="XrV-2M-0ga" secondAttribute="centerY" id="Zec-LR-QM9"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cV2-cs-fBc" secondAttribute="trailing" constant="20" symbolic="YES" id="dPV-br-VE2"/>
-                                    <constraint firstItem="tAV-XV-XVu" firstAttribute="top" secondItem="XrV-2M-0ga" secondAttribute="top" constant="34" id="hea-4z-hnP"/>
-                                    <constraint firstItem="cV2-cs-fBc" firstAttribute="leading" secondItem="tAV-XV-XVu" secondAttribute="trailing" constant="8" symbolic="YES" id="kZR-rP-PiR"/>
+                                    <constraint firstItem="cV2-cs-fBc" firstAttribute="centerY" secondItem="XrV-2M-0ga" secondAttribute="centerY" id="0kp-NT-iSb"/>
+                                    <constraint firstItem="cV2-cs-fBc" firstAttribute="leading" secondItem="tAV-XV-XVu" secondAttribute="trailing" constant="7.9999999999996589" id="8gt-gQ-qX3"/>
+                                    <constraint firstItem="cV2-cs-fBc" firstAttribute="top" secondItem="XrV-2M-0ga" secondAttribute="top" constant="35" id="CF1-bV-Mir"/>
+                                    <constraint firstItem="tAV-XV-XVu" firstAttribute="baseline" secondItem="cV2-cs-fBc" secondAttribute="baseline" id="MDj-Rg-1Yo"/>
+                                    <constraint firstAttribute="trailing" secondItem="cV2-cs-fBc" secondAttribute="trailing" id="ZIy-Jm-DKN"/>
                                     <constraint firstItem="tAV-XV-XVu" firstAttribute="baseline" secondItem="eBi-vO-7PM" secondAttribute="baseline" id="p8Y-y3-wVH"/>
-                                    <constraint firstItem="tAV-XV-XVu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="eBi-vO-7PM" secondAttribute="trailing" symbolic="YES" id="xtq-DC-3FM"/>
-                                    <constraint firstAttribute="trailing" secondItem="tAV-XV-XVu" secondAttribute="trailing" constant="64" id="xuP-Vs-o7O"/>
+                                    <constraint firstItem="tAV-XV-XVu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="eBi-vO-7PM" secondAttribute="trailing" constant="8" symbolic="YES" id="xtq-DC-3FM"/>
+                                    <constraint firstAttribute="trailing" secondItem="tAV-XV-XVu" secondAttribute="trailing" constant="87.999999999999659" id="xuP-Vs-o7O"/>
                                     <constraint firstItem="eBi-vO-7PM" firstAttribute="leading" secondItem="XrV-2M-0ga" secondAttribute="leading" constant="19" id="z2x-t5-hfk"/>
                                 </constraints>
                             </view>
@@ -2921,7 +2921,7 @@ help@coverstar.world로 문의 주세요. </string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="raB-i6-qdL"/>
+        <segue reference="XdB-RS-bVU"/>
         <segue reference="B4S-y7-ejT"/>
         <segue reference="gX5-Vb-gma"/>
         <segue reference="ABG-rg-37Q"/>
