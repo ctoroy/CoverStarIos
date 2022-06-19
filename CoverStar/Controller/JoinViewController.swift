@@ -65,7 +65,7 @@ class JoinViewController: UIViewController, UITextFieldDelegate {
                 numberFormatter.numberStyle = .decimal
                 let result = numberFormatter.string(from: NSNumber(value: Static.curCoin))!
                 self.bbtnMyPoint.tintColor = UIColor(named: "anychat_pink")
-                self.bbtnMyPoint.title = "\(result)P"
+                self.bbtnMyPoint.title = "\(result)STAR"
             }
         }
     }
