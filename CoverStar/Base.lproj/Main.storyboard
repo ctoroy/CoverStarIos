@@ -2288,11 +2288,11 @@ help@coverstar.world로 문의 주세요. </string>
                                 <rect key="frame" x="0.0" y="143" width="390" height="146"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JzO-h2-g5R">
-                                        <rect key="frame" x="22" y="66.333333333333343" width="346" height="13.333333333333329"/>
+                                        <rect key="frame" x="22" y="75" width="346" height="1"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V91-2E-Vex">
-                                        <rect key="frame" x="253" y="20" width="128.66666666666663" height="36"/>
+                                        <rect key="frame" x="239" y="22" width="128.66666666666663" height="36"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="icoWallet" imagePlacement="leading" title="스타체인 충전" imagePadding="5" titleAlignment="leading">
@@ -2302,21 +2302,12 @@ help@coverstar.world로 문의 주세요. </string>
                                             <action selector="btnCharge_click:" destination="10U-n4-yMF" eventType="touchUpInside" id="yCw-Oi-cR2"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="STAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bkx-no-ZtB">
-                                        <rect key="frame" x="314" y="97" width="68" height="22"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bkx-no-ZtB">
+                                        <rect key="frame" x="322" y="93" width="43.333333333333314" height="28"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="6Mc-Tl-8gM"/>
+                                            <constraint firstAttribute="height" constant="28" id="6Mc-Tl-8gM"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12,000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpT-2r-l8E">
-                                        <rect key="frame" x="192" y="88" width="114" height="41"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="41" id="p66-CQ-dfz"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -2326,24 +2317,33 @@ help@coverstar.world로 문의 주세요. </string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12,000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpT-2r-l8E">
+                                        <rect key="frame" x="200" y="87" width="114" height="41"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="41" id="p66-CQ-dfz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" name="anychat_pink"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="Bkx-no-ZtB" secondAttribute="bottom" constant="20" id="0iE-qC-sE5"/>
+                                    <constraint firstAttribute="bottom" secondItem="Bkx-no-ZtB" secondAttribute="bottom" constant="25" id="0iE-qC-sE5"/>
                                     <constraint firstItem="JzO-h2-g5R" firstAttribute="centerX" secondItem="aal-EO-K1b" secondAttribute="centerX" id="7oa-sF-VDm"/>
-                                    <constraint firstAttribute="bottom" secondItem="QpT-2r-l8E" secondAttribute="bottom" constant="17" id="9bz-D9-SV1"/>
-                                    <constraint firstItem="Bkx-no-ZtB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="QpT-2r-l8E" secondAttribute="trailing" constant="8" symbolic="YES" id="EOH-Mb-h8Y"/>
+                                    <constraint firstAttribute="bottom" secondItem="QpT-2r-l8E" secondAttribute="bottom" constant="18" id="9bz-D9-SV1"/>
+                                    <constraint firstItem="Bkx-no-ZtB" firstAttribute="leading" secondItem="QpT-2r-l8E" secondAttribute="trailing" constant="8" symbolic="YES" id="EOH-Mb-h8Y"/>
                                     <constraint firstItem="YWQ-7z-ubr" firstAttribute="leading" secondItem="aal-EO-K1b" secondAttribute="leading" constant="22" id="EbY-uQ-irL"/>
                                     <constraint firstItem="YWQ-7z-ubr" firstAttribute="top" secondItem="aal-EO-K1b" secondAttribute="top" constant="11" id="Hwj-w5-35r"/>
-                                    <constraint firstItem="QpT-2r-l8E" firstAttribute="leading" secondItem="aal-EO-K1b" secondAttribute="leading" constant="192" id="OYJ-BP-6Ca"/>
-                                    <constraint firstItem="YWQ-7z-ubr" firstAttribute="centerY" secondItem="V91-2E-Vex" secondAttribute="centerY" constant="2.5" id="PHf-SB-dVt"/>
+                                    <constraint firstItem="QpT-2r-l8E" firstAttribute="leading" secondItem="aal-EO-K1b" secondAttribute="leading" constant="200" id="OYJ-BP-6Ca"/>
+                                    <constraint firstItem="YWQ-7z-ubr" firstAttribute="centerY" secondItem="V91-2E-Vex" secondAttribute="centerY" constant="0.5" id="PHf-SB-dVt"/>
                                     <constraint firstItem="JzO-h2-g5R" firstAttribute="leading" secondItem="YWQ-7z-ubr" secondAttribute="leading" id="Q5Z-1h-KPe"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Bkx-no-ZtB" secondAttribute="trailing" constant="14" id="Scy-rU-3ho"/>
-                                    <constraint firstItem="JzO-h2-g5R" firstAttribute="top" secondItem="V91-2E-Vex" secondAttribute="bottom" constant="10.333333333333343" id="cfl-HA-bYl"/>
-                                    <constraint firstAttribute="trailing" secondItem="V91-2E-Vex" secondAttribute="trailing" constant="8.3333333333333712" id="dYi-yc-9eZ"/>
+                                    <constraint firstItem="JzO-h2-g5R" firstAttribute="top" secondItem="V91-2E-Vex" secondAttribute="bottom" constant="17" id="cfl-HA-bYl"/>
+                                    <constraint firstAttribute="trailing" secondItem="V91-2E-Vex" secondAttribute="trailing" constant="22.333333333333371" id="dYi-yc-9eZ"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Bkx-no-ZtB" secondAttribute="trailing" constant="20" symbolic="YES" id="eGg-z2-poP"/>
                                     <constraint firstItem="V91-2E-Vex" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="YWQ-7z-ubr" secondAttribute="trailing" constant="8" symbolic="YES" id="kaD-35-tjD"/>
-                                    <constraint firstItem="V91-2E-Vex" firstAttribute="top" secondItem="aal-EO-K1b" secondAttribute="top" constant="20" id="qGq-Qs-n7T"/>
-                                    <constraint firstItem="JzO-h2-g5R" firstAttribute="centerY" secondItem="aal-EO-K1b" secondAttribute="centerY" id="t73-16-hQV"/>
+                                    <constraint firstItem="V91-2E-Vex" firstAttribute="top" secondItem="aal-EO-K1b" secondAttribute="top" constant="22" id="qGq-Qs-n7T"/>
+                                    <constraint firstItem="JzO-h2-g5R" firstAttribute="centerY" secondItem="aal-EO-K1b" secondAttribute="centerY" constant="2.5" id="t73-16-hQV"/>
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icoMyFace" translatesAutoresizingMaskIntoConstraints="NO" id="EKa-cQ-WPV">
@@ -2919,7 +2919,7 @@ help@coverstar.world로 문의 주세요. </string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="raB-i6-qdL"/>
+        <segue reference="XdB-RS-bVU"/>
         <segue reference="B4S-y7-ejT"/>
         <segue reference="6AS-Hn-bbX"/>
         <segue reference="kD2-nE-vgn"/>

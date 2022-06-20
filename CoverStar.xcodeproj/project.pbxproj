@@ -101,7 +101,7 @@
 		09F1499E284D0F0E00295579 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1499D284D0F0E00295579 /* MainViewCell.swift */; };
 		09F149A0284D0F2100295579 /* MainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F1499F284D0F2100295579 /* MainViewCell.xib */; };
 		09F1587D27FBE65500FB8BD3 /* CountrySelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1587C27FBE65500FB8BD3 /* CountrySelectController.swift */; };
-		C90A73C6A17C42837536600E /* Pods_CoverStar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3AB55D7703DE143BF83E63 /* Pods_CoverStar.framework */; };
+		B20250C530ED540794BCD1C1 /* Pods_CoverStar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45785F45249FA4E0F78850EB /* Pods_CoverStar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -166,6 +166,7 @@
 		09B6D2C92843776300149F96 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		09BA3133283A3EBA007B04BD /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		09BEA586284B1BF1007B1135 /* ContestInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestInfo.swift; sourceTree = "<group>"; };
+		09CC4110ABADDE0309CF7386 /* Pods-CoverStar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverStar.release.xcconfig"; path = "Target Support Files/Pods-CoverStar/Pods-CoverStar.release.xcconfig"; sourceTree = "<group>"; };
 		09CFF20527FEB78700079508 /* LegalAgreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalAgreeViewController.swift; sourceTree = "<group>"; };
 		09CFF20727FEB79400079508 /* LegalAgreeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalAgreeViewModel.swift; sourceTree = "<group>"; };
 		09CFF20927FEB7CE00079508 /* Reactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reactive.swift; sourceTree = "<group>"; };
@@ -202,9 +203,8 @@
 		09F1499D284D0F0E00295579 /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
 		09F1499F284D0F2100295579 /* MainViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewCell.xib; sourceTree = "<group>"; };
 		09F1587C27FBE65500FB8BD3 /* CountrySelectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectController.swift; sourceTree = "<group>"; };
-		1F3AB55D7703DE143BF83E63 /* Pods_CoverStar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoverStar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35A01425FF884A33B5D48D5E /* Pods-CoverStar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverStar.debug.xcconfig"; path = "Target Support Files/Pods-CoverStar/Pods-CoverStar.debug.xcconfig"; sourceTree = "<group>"; };
-		97804723194AC7DEF5B6C224 /* Pods-CoverStar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverStar.release.xcconfig"; path = "Target Support Files/Pods-CoverStar/Pods-CoverStar.release.xcconfig"; sourceTree = "<group>"; };
+		45785F45249FA4E0F78850EB /* Pods_CoverStar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoverStar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21224BF64F6CD704744A80B /* Pods-CoverStar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverStar.debug.xcconfig"; path = "Target Support Files/Pods-CoverStar/Pods-CoverStar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,7 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09D6A6042848A60700482F08 /* StoreKit.framework in Frameworks */,
-				C90A73C6A17C42837536600E /* Pods_CoverStar.framework in Frameworks */,
+				B20250C530ED540794BCD1C1 /* Pods_CoverStar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,8 +407,8 @@
 		1E070749AD3193B2864B5505 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				35A01425FF884A33B5D48D5E /* Pods-CoverStar.debug.xcconfig */,
-				97804723194AC7DEF5B6C224 /* Pods-CoverStar.release.xcconfig */,
+				B21224BF64F6CD704744A80B /* Pods-CoverStar.debug.xcconfig */,
+				09CC4110ABADDE0309CF7386 /* Pods-CoverStar.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -417,7 +417,7 @@
 			isa = PBXGroup;
 			children = (
 				09D6A6032848A60700482F08 /* StoreKit.framework */,
-				1F3AB55D7703DE143BF83E63 /* Pods_CoverStar.framework */,
+				45785F45249FA4E0F78850EB /* Pods_CoverStar.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -429,11 +429,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 090D6A1227EC36A60001A4EE /* Build configuration list for PBXNativeTarget "CoverStar" */;
 			buildPhases = (
-				17D8B46C40BEB0BA8A59FFC5 /* [CP] Check Pods Manifest.lock */,
+				FA1CF4DFEF1F2B48605D6E39 /* [CP] Check Pods Manifest.lock */,
 				090D69FA27EC36A40001A4EE /* Sources */,
 				090D69FB27EC36A40001A4EE /* Frameworks */,
 				090D69FC27EC36A40001A4EE /* Resources */,
-				F0374BFCD391E4DC735D650B /* [CP] Embed Pods Frameworks */,
+				AECBDC3E8803E72EE7AF0099 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -508,7 +508,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		17D8B46C40BEB0BA8A59FFC5 /* [CP] Check Pods Manifest.lock */ = {
+		AECBDC3E8803E72EE7AF0099 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoverStar/Pods-CoverStar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoverStar/Pods-CoverStar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoverStar/Pods-CoverStar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA1CF4DFEF1F2B48605D6E39 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -528,23 +545,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F0374BFCD391E4DC735D650B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoverStar/Pods-CoverStar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoverStar/Pods-CoverStar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoverStar/Pods-CoverStar-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -770,7 +770,7 @@
 		};
 		090D6A1327EC36A60001A4EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35A01425FF884A33B5D48D5E /* Pods-CoverStar.debug.xcconfig */;
+			baseConfigurationReference = B21224BF64F6CD704744A80B /* Pods-CoverStar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -800,7 +800,7 @@
 		};
 		090D6A1427EC36A60001A4EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97804723194AC7DEF5B6C224 /* Pods-CoverStar.release.xcconfig */;
+			baseConfigurationReference = 09CC4110ABADDE0309CF7386 /* Pods-CoverStar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
