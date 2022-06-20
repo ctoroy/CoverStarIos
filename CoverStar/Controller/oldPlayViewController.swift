@@ -50,7 +50,10 @@ class oldPlayViewController: UIViewController {
         let nibName = String(describing: MainViewCell.self)
         tblMain.register(UINib(nibName: nibName, bundle: nil), forCellReuseIdentifier: nibName)
         tblMain.isScrollEnabled = true
+        
+        btnFilter.titleLabel?.adjustsFontForContentSizeCategory = true
     }
+
     
     func showAlertController(style: UIAlertController.Style) {
             let alertController: UIAlertController

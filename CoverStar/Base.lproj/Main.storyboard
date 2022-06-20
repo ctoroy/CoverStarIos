@@ -1542,21 +1542,6 @@ help@coverstar.world로 문의 주세요. </string>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASH-Qn-VHe">
-                                <rect key="frame" x="16" y="108" width="358" height="48"/>
-                                <color key="tintColor" red="0.94901960780000005" green="0.58823529409999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="polygon" imagePlacement="trailing" title="커버스터 시즌1 라운드 1" imagePadding="200" cornerStyle="fixed" titleAlignment="center">
-                                    <backgroundConfiguration key="background" cornerRadius="3">
-                                        <color key="strokeColor" name="anychat_pink"/>
-                                    </backgroundConfiguration>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="btnFilter_click:" destination="nLV-a7-c3O" eventType="touchUpInside" id="BPk-m1-i5C"/>
-                                    <action selector="btnFilter_click:" destination="Xzi-J6-8Cw" eventType="touchUpInside" id="HHD-Lx-4FN"/>
-                                </connections>
-                            </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="dEG-6T-oEw">
                                 <rect key="frame" x="0.0" y="217" width="390" height="544"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1585,26 +1570,43 @@ help@coverstar.world로 문의 주세요. </string>
                                     <action selector="btnSort_click:" destination="nLV-a7-c3O" eventType="touchUpInside" id="PmQ-Jf-9TT"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4f-Hj-NgH">
+                                <rect key="frame" x="16" y="119.99999999999999" width="393.66666666666669" height="34.333333333333329"/>
+                                <color key="tintColor" red="0.94901960780000005" green="0.58823529409999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="polygon" imagePlacement="trailing" title="커버스터 시즌1 라운드 1" imagePadding="200" cornerStyle="fixed" titleAlignment="leading">
+                                    <backgroundConfiguration key="background" cornerRadius="3">
+                                        <color key="strokeColor" name="anychat_pink"/>
+                                    </backgroundConfiguration>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="17"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btnFilter_click:" destination="Xzi-J6-8Cw" eventType="touchUpInside" id="0mZ-C7-Wp8"/>
+                                    <action selector="btnFilter_click:" destination="nLV-a7-c3O" eventType="touchUpInside" id="BPc-S8-UGU"/>
+                                    <action selector="btnFilter_click:" destination="wUZ-8i-fcd" eventType="touchUpInside" id="C2s-mi-nrN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gGR-1A-sQS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Ujg-Te-MUO" firstAttribute="leading" secondItem="NLY-ho-rMh" secondAttribute="trailing" constant="213" id="0d9-gL-fnr"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="l4f-Hj-NgH" secondAttribute="trailing" constant="-19.666666666666686" id="704-d7-YJE"/>
                             <constraint firstItem="NLY-ho-rMh" firstAttribute="centerY" secondItem="Ujg-Te-MUO" secondAttribute="centerY" id="8fn-Zw-7Qu"/>
                             <constraint firstItem="w7N-BV-VoD" firstAttribute="centerX" secondItem="lIe-Dc-taM" secondAttribute="centerX" id="A5N-gl-qsY"/>
                             <constraint firstItem="dEG-6T-oEw" firstAttribute="leading" secondItem="w7N-BV-VoD" secondAttribute="leading" id="BjO-dC-BpW"/>
-                            <constraint firstItem="Ujg-Te-MUO" firstAttribute="top" secondItem="ASH-Qn-VHe" secondAttribute="bottom" constant="7" id="E60-UY-MTM"/>
                             <constraint firstItem="w7N-BV-VoD" firstAttribute="top" secondItem="gGR-1A-sQS" secondAttribute="top" constant="6" id="LOV-Of-WOj"/>
-                            <constraint firstItem="ASH-Qn-VHe" firstAttribute="top" secondItem="w7N-BV-VoD" secondAttribute="bottom" constant="14" id="NpQ-1K-EoV"/>
-                            <constraint firstItem="NLY-ho-rMh" firstAttribute="leading" secondItem="ASH-Qn-VHe" secondAttribute="leading" id="XGh-DV-bFJ"/>
+                            <constraint firstItem="Ujg-Te-MUO" firstAttribute="top" secondItem="lIe-Dc-taM" secondAttribute="top" constant="163" id="P9u-Dp-EQI"/>
+                            <constraint firstItem="gGR-1A-sQS" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ujg-Te-MUO" secondAttribute="trailing" symbolic="YES" id="R70-0o-gk1"/>
                             <constraint firstItem="dEG-6T-oEw" firstAttribute="trailing" secondItem="w7N-BV-VoD" secondAttribute="trailing" id="YRY-bQ-MK5"/>
-                            <constraint firstItem="ASH-Qn-VHe" firstAttribute="leading" secondItem="lIe-Dc-taM" secondAttribute="leadingMargin" id="eVo-hF-qwR"/>
-                            <constraint firstItem="NLY-ho-rMh" firstAttribute="top" secondItem="ASH-Qn-VHe" secondAttribute="bottom" constant="20" id="fGn-9b-s5t"/>
+                            <constraint firstItem="Ujg-Te-MUO" firstAttribute="top" secondItem="l4f-Hj-NgH" secondAttribute="bottom" constant="8.6666666666666288" id="fFV-iO-kz2"/>
+                            <constraint firstItem="NLY-ho-rMh" firstAttribute="leading" secondItem="lIe-Dc-taM" secondAttribute="leadingMargin" id="gDr-jA-sSo"/>
                             <constraint firstItem="dEG-6T-oEw" firstAttribute="top" secondItem="Ujg-Te-MUO" secondAttribute="bottom" constant="8" id="hMV-R2-eph"/>
+                            <constraint firstItem="dEG-6T-oEw" firstAttribute="top" secondItem="NLY-ho-rMh" secondAttribute="bottom" constant="21" id="haa-hf-hq6"/>
                             <constraint firstItem="w7N-BV-VoD" firstAttribute="leading" secondItem="gGR-1A-sQS" secondAttribute="leading" id="ixx-gs-2m1"/>
-                            <constraint firstItem="ASH-Qn-VHe" firstAttribute="centerX" secondItem="w7N-BV-VoD" secondAttribute="centerX" id="me3-Ek-Ncu"/>
                             <constraint firstItem="dEG-6T-oEw" firstAttribute="bottom" secondItem="gGR-1A-sQS" secondAttribute="bottom" id="oiR-uA-eH7"/>
-                            <constraint firstItem="Ujg-Te-MUO" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ASH-Qn-VHe" secondAttribute="trailing" id="vCx-0x-cHU"/>
+                            <constraint firstItem="NLY-ho-rMh" firstAttribute="leading" secondItem="l4f-Hj-NgH" secondAttribute="leading" id="sGN-cb-6EZ"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="지난영상" image="icn_movie" id="E69-t7-ja5"/>
@@ -1612,7 +1614,7 @@ help@coverstar.world로 문의 주세요. </string>
                         <outlet property="bBtnHome" destination="eeg-2n-79x" id="Fcq-V0-eoM"/>
                         <outlet property="bBtnNotice" destination="sHp-sS-Gcy" id="Ocy-jL-ue0"/>
                         <outlet property="bBtnSearch" destination="pMZ-cT-06J" id="2d2-7C-HmY"/>
-                        <outlet property="btnFilter" destination="ASH-Qn-VHe" id="zMw-Rq-0fy"/>
+                        <outlet property="btnFilter" destination="l4f-Hj-NgH" id="5al-dG-kNY"/>
                         <outlet property="btnSort" destination="Ujg-Te-MUO" id="UlY-hN-PHF"/>
                         <outlet property="tblMain" destination="dEG-6T-oEw" id="TfZ-47-bmL"/>
                         <segue destination="k9i-HA-SlJ" kind="presentation" identifier="oldToNotice" modalPresentationStyle="fullScreen" id="gX5-Vb-gma"/>
@@ -2101,7 +2103,7 @@ help@coverstar.world로 문의 주세요. </string>
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkH-dm-7sV">
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkH-dm-7sV">
                                 <rect key="frame" x="16" y="109" width="393.66666666666669" height="34.333333333333343"/>
                                 <color key="tintColor" red="0.94901960780000005" green="0.58823529409999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -2919,10 +2921,10 @@ help@coverstar.world로 문의 주세요. </string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="XdB-RS-bVU"/>
+        <segue reference="raB-i6-qdL"/>
         <segue reference="B4S-y7-ejT"/>
-        <segue reference="6AS-Hn-bbX"/>
-        <segue reference="kD2-nE-vgn"/>
+        <segue reference="gX5-Vb-gma"/>
+        <segue reference="ABG-rg-37Q"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="DropDownIconDown" width="170.66667175292969" height="170.66667175292969"/>
