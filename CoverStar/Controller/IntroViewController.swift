@@ -44,7 +44,7 @@ class IntroViewController: UIViewController {
     @IBAction func btnLogin_Click(_ sender: AnyObject) {
         var uid = ""
         if (appData.object(forKey: "userID") != nil) {
-            uid = appData.string(forKey: "userId")!
+            uid = Static.userId
         }
 
         if(uid == ""){
