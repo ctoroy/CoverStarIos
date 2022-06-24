@@ -2056,7 +2056,7 @@ help@coverstar.world로 문의 주세요. </string>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OlT-QO-hum" customClass="LoadMoreTableView" customModule="CoverStar" customModuleProvider="target">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OlT-QO-hum" customClass="UITableView">
                                 <rect key="frame" x="8" y="94" width="375" height="716"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2067,7 +2067,7 @@ help@coverstar.world로 문의 주세요. </string>
                     </view>
                     <connections>
                         <outlet property="bBtnBack" destination="gHh-o5-m32" id="QJo-0J-xwK"/>
-                        <outlet property="tblNotice" destination="OlT-QO-hum" id="6nf-lG-gRa"/>
+                        <outlet property="tblNotice" destination="OlT-QO-hum" id="XFn-3W-9no"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R55-99-HM1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2352,7 +2352,7 @@ help@coverstar.world로 문의 주세요. </string>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coverstar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oev-Kj-Atp">
-                                <rect key="frame" x="68" y="61" width="74" height="21"/>
+                                <rect key="frame" x="68" y="60.666666666666657" width="74" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
