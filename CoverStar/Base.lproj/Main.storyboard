@@ -3001,18 +3001,22 @@ help@coverstar.world로 문의 주세요. </string>
                         <outlet property="bBtnSearch" destination="WtX-Sf-Pwk" id="vjX-Ny-A3F"/>
                         <outlet property="btnSort" destination="Wos-GP-Yue" id="fHQ-aH-qts"/>
                         <outlet property="tblMain" destination="WNh-2F-XMN" id="50j-TV-hbS"/>
+                        <segue destination="FAd-2o-yNN" kind="presentation" identifier="bestToSearch" modalPresentationStyle="fullScreen" id="f1u-Db-FbN"/>
+                        <segue destination="k9i-HA-SlJ" kind="presentation" identifier="bestToNotice" modalPresentationStyle="fullScreen" id="i7p-gq-Yow"/>
+                        <segue destination="agN-9y-vGM" kind="presentation" identifier="bestToDetail" modalPresentationStyle="fullScreen" id="uYJ-dh-AJt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kfn-oO-e8v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9847.6923076923067" y="-105.21327014218009"/>
+            <point key="canvasLocation" x="9805" y="-66"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="raB-i6-qdL"/>
         <segue reference="B4S-y7-ejT"/>
-        <segue reference="gX5-Vb-gma"/>
-        <segue reference="ABG-rg-37Q"/>
+        <segue reference="i7p-gq-Yow"/>
+        <segue reference="f1u-Db-FbN"/>
+        <segue reference="uYJ-dh-AJt"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="DropDownIconDown" width="170.66667175292969" height="170.66667175292969"/>

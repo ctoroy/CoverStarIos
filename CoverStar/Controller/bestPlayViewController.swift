@@ -203,11 +203,11 @@ class bestPlayViewController: UIViewController {
     }
     
     @objc func noticeButtonPressed(sender: UIBarButtonItem) {
-        self.performSegue(withIdentifier: "oldToNotice", sender: nil)
+        self.performSegue(withIdentifier: "bestToNotice", sender: nil)
     }
     
     @objc func searchButtonPressed(sender: UIBarButtonItem) {
-        self.performSegue(withIdentifier: "oldToSearch", sender: nil)
+        self.performSegue(withIdentifier: "bestToSearch", sender: nil)
     }
     
     
@@ -232,7 +232,7 @@ extension bestPlayViewController : UITableViewDelegate
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        self.performSegue(withIdentifier: "oldToDetail", sender: nil)
+        self.performSegue(withIdentifier: "bestToDetail", sender: nil)
         
 //        switch indexPath.row {
 //        case 0:
