@@ -101,6 +101,7 @@
 		09F1499E284D0F0E00295579 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1499D284D0F0E00295579 /* MainViewCell.swift */; };
 		09F149A0284D0F2100295579 /* MainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F1499F284D0F2100295579 /* MainViewCell.xib */; };
 		09F1587D27FBE65500FB8BD3 /* CountrySelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1587C27FBE65500FB8BD3 /* CountrySelectController.swift */; };
+		09FE78AE2876A2F100902965 /* bestPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FE78AD2876A2F100902965 /* bestPlayViewController.swift */; };
 		B20250C530ED540794BCD1C1 /* Pods_CoverStar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45785F45249FA4E0F78850EB /* Pods_CoverStar.framework */; };
 /* End PBXBuildFile section */
 
@@ -203,6 +204,7 @@
 		09F1499D284D0F0E00295579 /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
 		09F1499F284D0F2100295579 /* MainViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewCell.xib; sourceTree = "<group>"; };
 		09F1587C27FBE65500FB8BD3 /* CountrySelectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectController.swift; sourceTree = "<group>"; };
+		09FE78AD2876A2F100902965 /* bestPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bestPlayViewController.swift; sourceTree = "<group>"; };
 		45785F45249FA4E0F78850EB /* Pods_CoverStar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoverStar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21224BF64F6CD704744A80B /* Pods-CoverStar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverStar.debug.xcconfig"; path = "Target Support Files/Pods-CoverStar/Pods-CoverStar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -359,6 +361,7 @@
 				09E49E6A2844A44E0027163D /* NotiSettingViewController.swift */,
 				09B605FC284C84A00058E715 /* pointChargeViewController.swift */,
 				09E1581D284E46C800591F7B /* contestDetailViewController.swift */,
+				09FE78AD2876A2F100902965 /* bestPlayViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -592,6 +595,7 @@
 				09EF585F2821116D0000457D /* Common.swift in Sources */,
 				09AA550027F6B46100A4EB63 /* IntroViewController.swift in Sources */,
 				0988D4FE2837CB030016CDF3 /* ThreeBtnInputPopupView.swift in Sources */,
+				09FE78AE2876A2F100902965 /* bestPlayViewController.swift in Sources */,
 				09B511162843B7780070C66F /* SettingViewController.swift in Sources */,
 				09B6D2C4284368B800149F96 /* oldPlayViewController.swift in Sources */,
 				09B605FF284C8AC20058E715 /* ChargeViewCell.swift in Sources */,

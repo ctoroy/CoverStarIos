@@ -2920,7 +2920,7 @@ help@coverstar.world로 문의 주세요. </string>
         <!--명예의 전당-->
         <scene sceneID="aAg-j8-vFj">
             <objects>
-                <viewController id="56u-7i-MRs" customClass="oldPlayViewController" customModule="CoverStar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="56u-7i-MRs" customClass="bestPlayViewController" customModule="CoverStar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tjf-e1-ScX">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2947,17 +2947,17 @@ help@coverstar.world로 문의 주세요. </string>
                                 </items>
                             </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="WNh-2F-XMN">
-                                <rect key="frame" x="0.0" y="217" width="390" height="544"/>
+                                <rect key="frame" x="0.0" y="148" width="390" height="613"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="경연 영상" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rN7-t4-ufF">
-                                <rect key="frame" x="16" y="176" width="63" height="20"/>
+                                <rect key="frame" x="16" y="107" width="63" height="20"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wos-GP-Yue">
-                                <rect key="frame" x="292" y="163" width="82" height="46"/>
+                                <rect key="frame" x="292" y="94" width="82" height="46"/>
                                 <color key="tintColor" red="0.94901960780000005" green="0.58823529409999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="polygon" imagePlacement="trailing" imagePadding="5">
@@ -2974,23 +2974,6 @@ help@coverstar.world로 문의 주세요. </string>
                                     <action selector="btnSort_click:" destination="56u-7i-MRs" eventType="touchUpInside" id="sIA-hp-zOq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XkI-Rh-PER">
-                                <rect key="frame" x="16" y="119.99999999999999" width="393.66666666666669" height="34.333333333333329"/>
-                                <color key="tintColor" red="0.94901960780000005" green="0.58823529409999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="polygon" imagePlacement="trailing" title="커버스터 시즌1 라운드 1" imagePadding="200" cornerStyle="fixed" titleAlignment="leading">
-                                    <backgroundConfiguration key="background" cornerRadius="3">
-                                        <color key="strokeColor" name="anychat_pink"/>
-                                    </backgroundConfiguration>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="17"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="btnFilter_click:" destination="Xzi-J6-8Cw" eventType="touchUpInside" id="o3t-KK-3hf"/>
-                                    <action selector="btnFilter_click:" destination="56u-7i-MRs" eventType="touchUpInside" id="oBo-z3-coC"/>
-                                    <action selector="btnFilter_click:" destination="wUZ-8i-fcd" eventType="touchUpInside" id="y23-gp-g9q"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1DL-z4-Ffr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -2998,16 +2981,13 @@ help@coverstar.world로 문의 주세요. </string>
                             <constraint firstItem="WNh-2F-XMN" firstAttribute="top" secondItem="Wos-GP-Yue" secondAttribute="bottom" constant="8" id="3Kp-r7-jix"/>
                             <constraint firstItem="WNh-2F-XMN" firstAttribute="top" secondItem="rN7-t4-ufF" secondAttribute="bottom" constant="21" id="4HG-kb-oZB"/>
                             <constraint firstItem="WNh-2F-XMN" firstAttribute="trailing" secondItem="WXJ-1w-vCW" secondAttribute="trailing" id="4HS-Ne-cVT"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="XkI-Rh-PER" secondAttribute="trailing" constant="-19.666666666666686" id="KUs-pv-LF6"/>
-                            <constraint firstItem="rN7-t4-ufF" firstAttribute="leading" secondItem="XkI-Rh-PER" secondAttribute="leading" id="OkS-A9-7rp"/>
                             <constraint firstItem="WNh-2F-XMN" firstAttribute="bottom" secondItem="1DL-z4-Ffr" secondAttribute="bottom" id="PZb-QY-J1c"/>
-                            <constraint firstItem="Wos-GP-Yue" firstAttribute="top" secondItem="XkI-Rh-PER" secondAttribute="bottom" constant="8.6666666666666288" id="RyJ-ZW-wSf"/>
                             <constraint firstItem="WXJ-1w-vCW" firstAttribute="centerX" secondItem="Tjf-e1-ScX" secondAttribute="centerX" id="UQn-DN-6qL"/>
                             <constraint firstItem="rN7-t4-ufF" firstAttribute="leading" secondItem="Tjf-e1-ScX" secondAttribute="leadingMargin" id="YUk-TK-KT5"/>
                             <constraint firstItem="rN7-t4-ufF" firstAttribute="centerY" secondItem="Wos-GP-Yue" secondAttribute="centerY" id="ZCo-Eu-AFG"/>
                             <constraint firstItem="1DL-z4-Ffr" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Wos-GP-Yue" secondAttribute="trailing" symbolic="YES" id="ZUN-nT-rnQ"/>
                             <constraint firstItem="WXJ-1w-vCW" firstAttribute="leading" secondItem="1DL-z4-Ffr" secondAttribute="leading" id="fgy-Yu-tRW"/>
-                            <constraint firstItem="Wos-GP-Yue" firstAttribute="top" secondItem="Tjf-e1-ScX" secondAttribute="top" constant="163" id="ljS-Cl-hdr"/>
+                            <constraint firstItem="Wos-GP-Yue" firstAttribute="top" secondItem="Tjf-e1-ScX" secondAttribute="top" constant="94" id="ljS-Cl-hdr"/>
                             <constraint firstItem="Wos-GP-Yue" firstAttribute="leading" secondItem="rN7-t4-ufF" secondAttribute="trailing" constant="213" id="m5v-2y-OVV"/>
                             <constraint firstItem="WXJ-1w-vCW" firstAttribute="top" secondItem="1DL-z4-Ffr" secondAttribute="top" constant="6" id="mTP-Nb-elf"/>
                             <constraint firstItem="WNh-2F-XMN" firstAttribute="leading" secondItem="WXJ-1w-vCW" secondAttribute="leading" id="pNk-hH-p0V"/>
@@ -3019,14 +2999,13 @@ help@coverstar.world로 문의 주세요. </string>
                         <outlet property="bBtnHome" destination="FsS-FJ-4rp" id="fBT-Vh-qOD"/>
                         <outlet property="bBtnNotice" destination="o8C-R1-Wix" id="cyC-TD-0dk"/>
                         <outlet property="bBtnSearch" destination="WtX-Sf-Pwk" id="vjX-Ny-A3F"/>
-                        <outlet property="btnFilter" destination="XkI-Rh-PER" id="8Tf-NK-tzD"/>
                         <outlet property="btnSort" destination="Wos-GP-Yue" id="fHQ-aH-qts"/>
                         <outlet property="tblMain" destination="WNh-2F-XMN" id="50j-TV-hbS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kfn-oO-e8v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9849" y="-105"/>
+            <point key="canvasLocation" x="9847.6923076923067" y="-105.21327014218009"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
